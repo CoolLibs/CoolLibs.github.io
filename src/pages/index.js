@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="An open-source C++ framework, designed for image-oriented software.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
