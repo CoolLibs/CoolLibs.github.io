@@ -46,9 +46,9 @@ const config = {
           items: [
             {
               type: 'doc',
-              docId: 'intro',
+              docId: 'tutorials/intro',
               position: 'left',
-              label: 'Tutorial',
+              label: 'Tutorials',
             },
             {to: '/blog', label: 'Blog', position: 'left'},
             {
@@ -56,6 +56,12 @@ const config = {
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
+            },
+            {
+              type: 'doc',
+              docId: 'contributing/intro',
+              position: 'left',
+              label: 'Contributing',
             },
           ],
         },
