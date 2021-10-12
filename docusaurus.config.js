@@ -7,15 +7,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cool',
-  tagline:
-      'An open-source C++ framework, designed for image-oriented software.',
+  tagline: 'An open-source C++ framework.',
   url: 'https://coollibs.github.io/',
-  baseUrl: '/Doc/',
+  baseUrl: '/home/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'CoolLibs',
-  projectName: 'Doc',
+  projectName: 'home',
 
   presets: [
     [
@@ -53,9 +52,10 @@ const config = {
             },
             {to: '/blog', label: 'Blog', position: 'left'},
             {
-              href: 'https://github.com/',
-              label: 'GitHub',
+              href: 'https://github.com/CoolLibs/Cool',
               position: 'right',
+              className: 'header-github-link',
+              'aria-label': 'GitHub repository',
             },
           ],
         },
