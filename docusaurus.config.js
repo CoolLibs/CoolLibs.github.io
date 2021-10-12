@@ -44,24 +44,14 @@ const config = {
             src: 'img/favicon-32x32.png',
           },
           items: [
-            {
-              type: 'doc',
-              docId: 'tutorials/intro',
-              position: 'left',
-              label: 'Tutorials',
-            },
+            {to: '/docs/tutorials', label: 'Tutorials', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
+            {to: '/docs/contributing', label: 'Contributing', position: 'left'},
             {
               href: 'https://github.com/CoolLibs/Cool',
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
-            },
-            {
-              type: 'doc',
-              docId: 'contributing/intro',
-              position: 'left',
-              label: 'Contributing',
             },
           ],
         },
