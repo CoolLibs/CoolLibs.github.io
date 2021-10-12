@@ -19,11 +19,11 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build
+$ npm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
-It is done automatically when you push changes to `main`.
+Happens automatically when you push changes to `main`.
