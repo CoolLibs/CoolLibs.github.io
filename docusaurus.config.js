@@ -14,8 +14,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Cool',
-  projectName: 'CoolDoc',
+  organizationName: 'CoolLibs',
+  projectName: 'Doc',
 
   presets: [
     [
