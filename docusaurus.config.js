@@ -39,10 +39,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
-          title: 'Cool Doc',
+          title: '',
           logo: {
             alt: 'Cool\'s Logo',
-            src: 'img/logo.svg',
+            src: 'img/favicon-32x32.png',
           },
           items: [
             {
