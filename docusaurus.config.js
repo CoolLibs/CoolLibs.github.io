@@ -59,28 +59,32 @@ const config = {
           style: 'dark',
           links: [
             {
-              title: 'Docs',
+              title: 'Our projects',
               items: [
                 {
-                  label: 'Tutorial',
-                  to: '/docs/tutorials',
+                  label: 'CoolLab',
+                  to: 'https://github.com/CoolLibs/CoolLab',
+                },
+                {
+                  label: 'CoolDemo',
+                  to: 'https://github.com/CoolLibs/Demo',
                 },
               ],
             },
             {
-              title: 'Community',
+              title: 'Raise an issue !',
               items: [
                 {
-                  label: 'Stack Overflow',
-                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                  label: 'Ask a question',
+                  to: 'https://github.com/CoolLibs/Cool/issues',
                 },
                 {
-                  label: 'Discord',
-                  href: 'https://discordapp.com/invite/docusaurus',
+                  label: 'Give us feedback',
+                  to: 'https://github.com/CoolLibs/Cool/issues',
                 },
                 {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/docusaurus',
+                  label: 'Report a mistake',
+                  to: 'https://github.com/CoolLibs/home/issues',
                 },
               ],
             },
@@ -93,7 +97,7 @@ const config = {
                 },
                 {
                   label: 'GitHub',
-                  href: 'https://github.com/facebook/docusaurus',
+                  to: 'https://github.com/CoolLibs/Cool',
                 },
               ],
             },
