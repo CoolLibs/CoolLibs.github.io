@@ -44,9 +44,11 @@ const config = {
             src: 'img/favicon-32x32.png',
           },
           items: [
+            {to: '/about', label: 'About', position: 'left'},
             {to: '/docs/tutorials', label: 'Tutorials', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
             {to: '/docs/contributing', label: 'Contributing', position: 'left'},
+            {to: '/docs/lab', label: 'Lab', position: 'left'},
             {
               href: 'https://github.com/CoolLibs/Cool',
               position: 'right',
