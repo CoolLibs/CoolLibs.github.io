@@ -27,8 +27,7 @@ const FeatureList = [
 //     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
 //     description: (
 //       <>
-//         Extend or customize your website layout by reusing React. Docusaurus can
-//         be extended while reusing the same header and footer.
+// Written in modern C++ 20
 //       </>
 //     ),
 //   },
