@@ -46,4 +46,4 @@ GLDebug(glValidateProgram(program_id));
 
 Modern debugging happens automatically.
 
-You can ignore some warnings and control the look of the messages in the ```App``` module, under ```internal/GLDebugCallback.h```.
+You can ignore some warnings and control the look of the messages in the ```Window``` module, under ```internal/GLDebugCallback.h```.

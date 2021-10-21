@@ -12,7 +12,8 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{siteConfig.tagline} <br/>
+        Designed for image-oriented software</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -29,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title=""
       description="An open-source C++ framework, designed for image-oriented software.">
       <HomepageHeader />
       <main>
