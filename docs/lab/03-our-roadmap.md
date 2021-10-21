@@ -32,7 +32,7 @@ Data usable across the different systems.
 
 ## Bezier instead of interpolation for function curves (a.k.a. RGB curves).
 
-See [Bezier Rgb Curves](../bezier-rgb-curves/)
+See [Bezier Rgb Curves](https://github.com/CoolLibs/Cool/blob/main/src/Cool/RgbCurve/_README.md)
 
 And how do we send these curves to the shader ? Do we bake it into a texture ?
 
