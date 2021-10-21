@@ -42,8 +42,8 @@ GLDebug(glLinkProgram(program_id));
 GLDebug(glValidateProgram(program_id));
 ```
 
-### Modern Debugging (requires OpenGL 4.3 or later)
+### Modern Debugging
 
-Modern debugging happens automatically.
+Modern debugging requires OpenGL 4.3 or later. If you have it then it will happen automatically.
 
 You can ignore some warnings and control the look of the messages in the ```Window``` module, under ```internal/GLDebugCallback.h```.
