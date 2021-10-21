@@ -10,7 +10,7 @@ This helps a lot with code readability. See [here](https://isocpp.github.io/CppC
 
 They help a lot with decoupling, code reuse, testing, *etc.*
 
-Check out [this great conference](https://youtu.be/WLDT1lDOsb4) about why should love free functions.
+Check out [this great conference](https://youtu.be/WLDT1lDOsb4) about why you should love free functions.
 
 **NB:** This doesn't mean that member functions are bad or that you should never use them. If you need to encapsulate data and only access it in well defined ways, a member function is the way to go. But if something can be done using only the public interface of a class, then a free function is preferable to a member function.
 
