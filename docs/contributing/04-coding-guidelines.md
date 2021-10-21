@@ -2,6 +2,12 @@
 title: Coding guidelines
 ---
 
+## Prefer free functions when possible
+
+https://youtu.be/WLDT1lDOsb4
+
+## Keep functions short
+
 ## Naming
 
 **Naming is important (and hard)**, so please be mindful when you choose a name. Be explicit, **don't be too afraid of long names**. And most importantly : make sure the name describes what the thing is, nothing more, nothing less.
