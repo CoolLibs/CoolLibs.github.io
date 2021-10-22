@@ -82,7 +82,7 @@ Coding styles don't matter, and that's why we simply have to choose one and stic
 I used to use camelCase, and then started to learn Rust which forces you to use snake_case. And well, after a short period of adaptation I started really enjoying snake case because the separation between words is clearer, and therefore long names are easier to read.
 
  - We use *snake_case* for variables and functions.
- - We use *PascalCase* for types.
+ - We use *PascalCase* for types, namespaces and enum values.
 
 ### Member variables
 
