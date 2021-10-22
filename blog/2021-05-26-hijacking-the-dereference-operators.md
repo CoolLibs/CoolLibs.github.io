@@ -1,10 +1,6 @@
 ---
-title: "Hijacking the Dereference Operators"
-date: 2021-05-26T15:23:15+02:00
-author: jules
-tags: []
-toc: true
-draft: false
+title: Hijacking the Dereference Operators
+authors: jules
 ---
 
 I often end up writting classes that wrap other classes or primitive types.
@@ -31,7 +27,10 @@ private:
 };
 ```
 
+
 And for a long time I was annoyed when needing to access the underlying wrapped class. At first I was writting one getter function for each method or field of the wrapped class that I still needed to access.
+
+<!--truncate-->
 
 ```cpp
 class MyDataWrapper {
