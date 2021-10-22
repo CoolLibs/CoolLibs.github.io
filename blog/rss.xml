@@ -4,111 +4,29 @@
         <title>Cool Blog</title>
         <link>https://coollibs.github.io/home/blog</link>
         <description>Cool Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://coollibs.github.io/home/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://coollibs.github.io/home/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Registry]]></title>
-            <link>https://coollibs.github.io/home/blog/registry</link>
-            <guid>Registry</guid>
-            <pubDate>Sun, 13 Jun 2021 10:13:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Parameters]]></title>
-            <link>https://coollibs.github.io/home/blog/parameters</link>
-            <guid>Parameters</guid>
-            <pubDate>Sun, 13 Jun 2021 10:11:45 GMT</pubDate>
-            <description><![CDATA[The concept of a parameter is a value that you can modify through the UI, query throughout the different systems, create presets for, track changes in an history, and so on.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[One or Many Repos]]></title>
-            <link>https://coollibs.github.io/home/blog/one-or-many-repos</link>
-            <guid>One or Many Repos</guid>
-            <pubDate>Sat, 05 Jun 2021 16:35:44 GMT</pubDate>
-            <description><![CDATA[One repo for all the Cool modules]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Unit Type-System]]></title>
-            <link>https://coollibs.github.io/home/blog/unit-type-system</link>
-            <guid>Unit Type-System</guid>
-            <pubDate>Fri, 28 May 2021 12:30:06 GMT</pubDate>
-            <description><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa ? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system !]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Bezier Rgb Curves]]></title>
-            <link>https://coollibs.github.io/home/blog/bezier-rgb-curves</link>
-            <guid>Bezier Rgb Curves</guid>
-            <pubDate>Fri, 28 May 2021 12:00:28 GMT</pubDate>
-            <description><![CDATA[By the way, I called them RGB curves because this is what they are often called, but it's actually much more general than that and not at all related with RGB or even color correction. It simply describes a function, any mathematical function, or more precisely a function from [0, 1] to [0, 1].]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Int or Float ?]]></title>
-            <link>https://coollibs.github.io/home/blog/int-or-float</link>
-            <guid>Int or Float ?</guid>
-            <pubDate>Fri, 28 May 2021 11:34:18 GMT</pubDate>
+            <title><![CDATA[Int or Float?]]></title>
+            <link>https://coollibs.github.io/home/blog/2021/05/28/int-or-float</link>
+            <guid>Int or Float?</guid>
+            <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[After a lot of trouble and bugs, I have come to the conclusion that you sould use floats most of the time.]]></description>
         </item>
         <item>
-            <title><![CDATA[C++ Fondamentals]]></title>
-            <link>https://coollibs.github.io/home/blog/cpp-fondamentals</link>
-            <guid>C++ Fondamentals</guid>
-            <pubDate>Thu, 27 May 2021 10:54:14 GMT</pubDate>
-            <description><![CDATA[Stack vs Heap]]></description>
+            <title><![CDATA[Unit Type-System]]></title>
+            <link>https://coollibs.github.io/home/blog/2021/05/28/unit-type-system</link>
+            <guid>Unit Type-System</guid>
+            <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system!]]></description>
         </item>
         <item>
             <title><![CDATA[Hijacking the Dereference Operators]]></title>
-            <link>https://coollibs.github.io/home/blog/hijacking-the-dereference-operators</link>
+            <link>https://coollibs.github.io/home/blog/2021/05/26/hijacking-the-dereference-operators</link>
             <guid>Hijacking the Dereference Operators</guid>
-            <pubDate>Wed, 26 May 2021 13:23:15 GMT</pubDate>
+            <pubDate>Wed, 26 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[I often end up writting classes that wrap other classes or primitive types.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[What Is a Vector ?]]></title>
-            <link>https://coollibs.github.io/home/blog/what-is-a-vector</link>
-            <guid>What Is a Vector ?</guid>
-            <pubDate>Tue, 25 May 2021 14:10:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Single Source of Truth]]></title>
-            <link>https://coollibs.github.io/home/blog/single-source-of-truth</link>
-            <guid>Single Source of Truth</guid>
-            <pubDate>Mon, 24 May 2021 22:07:12 GMT</pubDate>
-            <description><![CDATA[The Single Source of Truth principle is very simple : only store an information once !]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Camera]]></title>
-            <link>https://coollibs.github.io/home/blog/camera</link>
-            <guid>Camera</guid>
-            <pubDate>Sun, 23 May 2021 22:46:44 GMT</pubDate>
-            <description><![CDATA[Separate the data from the controller]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://coollibs.github.io/home/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://coollibs.github.io/home/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
         </item>
     </channel>
 </rss>

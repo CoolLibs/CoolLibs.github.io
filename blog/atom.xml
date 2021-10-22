@@ -2,165 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coollibs.github.io/home/blog</id>
     <title>Cool Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coollibs.github.io/home/blog"/>
     <subtitle>Cool Blog</subtitle>
     <icon>https://coollibs.github.io/home/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://coollibs.github.io/home/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <title type="html"><![CDATA[Int or Float?]]></title>
+        <id>Int or Float?</id>
+        <link href="https://coollibs.github.io/home/blog/2021/05/28/int-or-float"/>
+        <updated>2021-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After a lot of trouble and bugs, I have come to the conclusion that you sould use floats most of the time.]]></summary>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://coollibs.github.io/home/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Registry]]></title>
-        <id>Registry</id>
-        <link href="https://coollibs.github.io/home/blog/registry"/>
-        <updated>2021-06-13T10:13:50.000Z</updated>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parameters]]></title>
-        <id>Parameters</id>
-        <link href="https://coollibs.github.io/home/blog/parameters"/>
-        <updated>2021-06-13T10:11:45.000Z</updated>
-        <summary type="html"><![CDATA[The concept of a parameter is a value that you can modify through the UI, query throughout the different systems, create presets for, track changes in an history, and so on.]]></summary>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One or Many Repos]]></title>
-        <id>One or Many Repos</id>
-        <link href="https://coollibs.github.io/home/blog/one-or-many-repos"/>
-        <updated>2021-06-05T16:35:44.000Z</updated>
-        <summary type="html"><![CDATA[One repo for all the Cool modules]]></summary>
-        <author>
-            <name>jules</name>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Unit Type-System]]></title>
         <id>Unit Type-System</id>
-        <link href="https://coollibs.github.io/home/blog/unit-type-system"/>
-        <updated>2021-05-28T12:30:06.000Z</updated>
-        <summary type="html"><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa ? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system !]]></summary>
+        <link href="https://coollibs.github.io/home/blog/2021/05/28/unit-type-system"/>
+        <updated>2021-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system!]]></summary>
         <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bezier Rgb Curves]]></title>
-        <id>Bezier Rgb Curves</id>
-        <link href="https://coollibs.github.io/home/blog/bezier-rgb-curves"/>
-        <updated>2021-05-28T12:00:28.000Z</updated>
-        <summary type="html"><![CDATA[By the way, I called them RGB curves because this is what they are often called, but it's actually much more general than that and not at all related with RGB or even color correction. It simply describes a function, any mathematical function, or more precisely a function from [0, 1] to [0, 1].]]></summary>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Int or Float ?]]></title>
-        <id>Int or Float ?</id>
-        <link href="https://coollibs.github.io/home/blog/int-or-float"/>
-        <updated>2021-05-28T11:34:18.000Z</updated>
-        <summary type="html"><![CDATA[After a lot of trouble and bugs, I have come to the conclusion that you sould use floats most of the time.]]></summary>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++ Fondamentals]]></title>
-        <id>C++ Fondamentals</id>
-        <link href="https://coollibs.github.io/home/blog/cpp-fondamentals"/>
-        <updated>2021-05-27T10:54:14.000Z</updated>
-        <summary type="html"><![CDATA[Stack vs Heap]]></summary>
-        <author>
-            <name>jules</name>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hijacking the Dereference Operators]]></title>
         <id>Hijacking the Dereference Operators</id>
-        <link href="https://coollibs.github.io/home/blog/hijacking-the-dereference-operators"/>
-        <updated>2021-05-26T13:23:15.000Z</updated>
+        <link href="https://coollibs.github.io/home/blog/2021/05/26/hijacking-the-dereference-operators"/>
+        <updated>2021-05-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I often end up writting classes that wrap other classes or primitive types.]]></summary>
         <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Is a Vector ?]]></title>
-        <id>What Is a Vector ?</id>
-        <link href="https://coollibs.github.io/home/blog/what-is-a-vector"/>
-        <updated>2021-05-25T14:10:42.000Z</updated>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Single Source of Truth]]></title>
-        <id>Single Source of Truth</id>
-        <link href="https://coollibs.github.io/home/blog/single-source-of-truth"/>
-        <updated>2021-05-24T22:07:12.000Z</updated>
-        <summary type="html"><![CDATA[The Single Source of Truth principle is very simple : only store an information once !]]></summary>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Camera]]></title>
-        <id>Camera</id>
-        <link href="https://coollibs.github.io/home/blog/camera"/>
-        <updated>2021-05-23T22:46:44.000Z</updated>
-        <summary type="html"><![CDATA[Separate the data from the controller]]></summary>
-        <author>
-            <name>jules</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://coollibs.github.io/home/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>first-blog-post</id>
-        <link href="https://coollibs.github.io/home/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
         </author>
     </entry>
 </feed>
