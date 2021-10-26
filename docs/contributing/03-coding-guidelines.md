@@ -14,6 +14,8 @@ Check out [this great conference](https://youtu.be/WLDT1lDOsb4) about why you sh
 
 **NB:** This doesn't mean that member functions are bad or that you should never use them. If you need to encapsulate data and only access it in well defined ways, a member function is the way to go. But if something can be done using only the public interface of a class, then a free function is preferable to a member function.
 
+To learn more: [*Learn C++ and Dev Practices*](https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/docs/lessons/free-functions).
+
 ## Name with empathy
 
 **Naming is important (and hard)**, so please be mindful when you choose a name. Be explicit, **don't be too afraid of long names**. And most importantly : make sure the name describes what the thing is, nothing more, nothing less.
