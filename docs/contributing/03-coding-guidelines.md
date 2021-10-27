@@ -16,6 +16,43 @@ Check out [this great conference](https://youtu.be/WLDT1lDOsb4) about why you sh
 
 To learn more: [*Learn C++ and Dev Practices*](https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/docs/lessons/free-functions).
 
+## Appreciate simple structs
+
+They are amazing to group data together, and make for very great abstractions. As long as your data doesn't have to respect any invariant, a `struct` is preferable to a `class` because it is simpler.
+
+Often they will help with parameter passing: if you realize that you are passing the same 4 arguments around, then it probably means that there is room for an abstraction here. Puting these 4 values into a struct makes the intent clearer, and also reduces knowledge duplication (if you at some point need to add a 5th value to achieve what you need to do, you don't have to edit a bunch of functions that had the same 4 parameters, you can just edit the struct).
+
+With C++ 20's *designated initializers*, `struct`s have become even more awesome: they make your code more readable and allow for named parameters:
+```cpp
+// Not readable at all! You have to go look up what WindowConfig is.
+Cool::run<App>({Cool::WindowConfig{"Cool Lab",
+                                   1280,
+                                   720,
+                                   true,
+                                   false}});
+
+// Completely clear                                   
+Cool::run<App>({Cool::WindowConfig{.title                       = "Cool Lab",
+                                   .initial_width               = 1280,
+                                   .initial_height              = 720,
+                                   .cap_framerate_on_startup_if = true,
+                                   .maximize_on_startup_if      = false}});
+```
+
+## Keep cohesion inside your classes
+
+A class should not be too big, and should not be handling the details of more than one system. If you start to see different and independent bits of logic grow inside a class, then separate them in two classes.
+
+In short, follow the Single Responsibility Principle.
+
+## Use behavioural inheritance with great care
+
+Class hierarchies can easily become wild and hard to understand. Also, there are very few domains that are actually accurately modeled by a hierarchical structure. This means that often (in poorly designed class hierarchies), some child classes end up inheriting things that they don't need, because there isn't a strict *is a* relationship between them and their parents.
+
+*Composition* is much more flexible than inheritance and should be prefered in most cases. By using small structs and free functions you can achieve the same code reuse as with inheritance, but with less coupling! (And actually it is even easier to reuse code this way).
+
+If you are want polymorphism, you can achieve it dynamically through `std::variant` or *type erasure*, and statically through *function overloading* and *templates*.
+
 ## Name with empathy
 
 **Naming is important (and hard)**, so please be mindful when you choose a name. Be explicit, **don't be too afraid of long names**. And most importantly : make sure the name describes what the thing is, nothing more, nothing less.
