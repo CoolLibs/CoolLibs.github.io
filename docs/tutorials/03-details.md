@@ -12,7 +12,7 @@ But you might want to do
 git update-index --assume-unchanged imgui.ini
 ```
 
-to ignore it from your commits (It does change every time you move a window in your app, so basically it would be present in every commit).
+to ignore it from your commits. (It does change every time you move a window in your app, so basically it would be present in every commit).
 
 You should only commit it once in a while, when new windows are added for example.
 

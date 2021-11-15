@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline} <br/>
-        Designed for image-oriented software</p>
+        Designed for computer graphics software</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title=""
-      description="An open-source C++ framework, designed for image-oriented software.">
+      description="An open-source C++ framework, designed for computer graphics software.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

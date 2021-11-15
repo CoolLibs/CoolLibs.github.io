@@ -9,7 +9,7 @@ By order of decreasing importance:
 
 We are here to learn and share. As the name *Lab* suggests this is a place to make experiments and try out implementations.
 
-By writing documentation and blog articles we strive to share our findings with others.
+By writing documentation and blog articles we also strive to share our findings with others.
 
 ## Don't worry about what already exists
 
