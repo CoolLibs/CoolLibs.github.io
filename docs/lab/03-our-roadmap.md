@@ -28,6 +28,10 @@ Data usable across the different systems.
 
 ## Post-processing
 
+Good example: https://youtu.be/Y3d8jR_IwYw?t=4378. Especially the gradient technique is pretty cool.
+
+Very good resource about bloom: https://youtu.be/tI70-HIc5ro
+
 ## Color spaces ?
 
 ## Bezier instead of interpolation for function curves (a.k.a. RGB curves).
@@ -39,6 +43,8 @@ And how do we send these curves to the shader ? Do we bake it into a texture ?
 ## Premultiplied alpha
 
 ## Improve timeline navigation / display
+
+https://youtu.be/Y3d8jR_IwYw?t=5577
 
 ## Keybinds remapping (inspired from Django ?)
 
