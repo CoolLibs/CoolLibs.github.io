@@ -67,7 +67,7 @@ const config = {
               items: [
                 {
                   label: 'CoolLab',
-                  to: 'https://github.com/CoolLibs/CoolLab',
+                  to: 'https://github.com/CoolLibs/Lab',
                 },
                 {
                   label: 'CoolDemo',

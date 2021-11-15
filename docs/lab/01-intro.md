@@ -3,7 +3,7 @@ slug: /lab
 title: Welcome
 ---
 
-[**CoolLab**](https://github.com/CoolLibs/CoolLab) is a patchwork of creative tools based on *Cool*. It is mainly focused on image and video generation, and includes some audio as well.
+[**CoolLab**](https://github.com/CoolLibs/Lab) is a patchwork of creative tools based on *Cool*. It is mainly focused on image and video generation, and includes some audio as well.
 
 The goal is both to have a software that uses *Cool* so that we can work on the framework, and also to develop a genuinely cool software for artists and programmers.
 
