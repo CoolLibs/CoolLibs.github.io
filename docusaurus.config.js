@@ -52,7 +52,7 @@ const config = {
             {to: '/docs/lab', label: 'Lab', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
-              href: 'https://github.com/CoolLibs/Cool',
+              href: 'https://github.com/CoolLibs',
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
@@ -96,12 +96,12 @@ const config = {
               title: 'More',
               items: [
                 {
-                  label: 'Blog',
-                  to: '/blog',
+                  label: 'GitHub',
+                  to: 'https://github.com/CoolLibs',
                 },
                 {
-                  label: 'GitHub',
-                  to: 'https://github.com/CoolLibs/Cool',
+                  label: 'Blog',
+                  to: '/blog',
                 },
               ],
             },
