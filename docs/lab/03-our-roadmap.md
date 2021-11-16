@@ -42,6 +42,8 @@ And how do we send these curves to the shader ? Do we bake it into a texture ?
 
 ## Premultiplied alpha
 
+https://youtu.be/WtYfF48Z9mA?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E
+
 ## Improve timeline navigation / display
 
 https://youtu.be/Y3d8jR_IwYw?t=5577
