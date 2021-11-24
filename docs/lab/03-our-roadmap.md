@@ -32,6 +32,8 @@ Good example: https://youtu.be/Y3d8jR_IwYw?t=4378. Especially the gradient techn
 
 Very good resource about bloom: https://youtu.be/tI70-HIc5ro
 
+Outlines: https://alexanderameye.github.io/notes/rendering-outlines/ (the edge detection is particularly good)
+
 ## Color spaces ?
 
 ## Bezier instead of interpolation for function curves (a.k.a. RGB curves).
