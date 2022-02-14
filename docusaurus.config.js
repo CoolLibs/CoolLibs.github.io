@@ -15,6 +15,8 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "CoolLibs",
   projectName: "CoolLibs.github.io",
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
   plugins: [[require.resolve("docusaurus-lunr-search"), { excludeRoutes: [] }]],
 
   presets: [
