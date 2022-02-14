@@ -11,7 +11,8 @@ module.exports = {
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "CoolLibs",
-  projectName: "Cool",
+  projectName: "CoolLibs.github.io",
+  deploymentBranch: "gh-pages",
   plugins: [[require.resolve("docusaurus-lunr-search"), { excludeRoutes: [] }]],
   themeConfig: {
     navbar: {
