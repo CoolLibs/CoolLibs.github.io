@@ -1,6 +1,6 @@
 # Website
 
-This is official *Cool* website. It contains all the tutorials, documentation and devlogs.
+This is official _Cool_ website. It contains all the tutorials, documentation and devlogs.
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
