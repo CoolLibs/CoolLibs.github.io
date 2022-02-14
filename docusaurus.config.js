@@ -9,7 +9,7 @@ const config = {
   title: 'Cool',
   tagline: 'An open-source C++ framework',
   url: 'https://coollibs.github.io/',
-  baseUrl: '/home/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
