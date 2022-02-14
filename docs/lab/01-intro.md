@@ -3,9 +3,13 @@ slug: /lab
 title: Lab
 ---
 
+import LabGallery from "@site/src/components/LabGallery"
+
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab.zip)
 :::
+
+<LabGallery/>
 
 [**CoolLab**](https://github.com/CoolLibs/Lab) is a patchwork of creative tools based on _Cool_. It is mainly focused on image and video generation, and includes some audio as well.
 
