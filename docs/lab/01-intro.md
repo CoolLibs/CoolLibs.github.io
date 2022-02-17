@@ -7,7 +7,8 @@ import LabGallery from "@site/src/components/LabGallery"
 
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
-[**Download CoolLab for Linux**](/CoolLab-Linux.zip)
+[**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
+Download for MacOS will be available "soon", once their toolchain gets fully updated to the latest C++ version.
 :::
 
 <LabGallery/>
