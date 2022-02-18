@@ -3,77 +3,104 @@ title: "Our Roadmap"
 toc: true
 ---
 
-## Layer system
+## :checkmark: Done
 
-How do we combine the outputs from our different system / from different instances of the same system.
-Do we use a classic layer structure, or a graph ?
+### Node system
 
-## Audio
+- Integrate a library to create node graphs and use it to create scenes.
+- Make it easy for any user to add new nodes.
 
-Import audio files and play them along the image generation (ideal to produce audio clips). Retrieve data from the audio to drive the images (pitch, bpm, volume etc.)
+### Ray Marching
 
-We can search a lib in this list : https://awesomeopensource.com/projects/audio-library
-I currently found https://github.com/mackron/miniaudio for audio playback
-and https://www.kfrlib.com/newdocs/index.html or https://aubio.org/ for audio analysis.
+- Generate a shader that contains the sdf of the scene (described by the node graph).
+- Render that scene within the same shader.
+- Implement many cool rendering effects that are allowed by Ray Marching.
 
-## Parameter system
+### Parameter system
 
-Data usable across the different systems.
+- Control them through the UI
+- Save changes to them in a history 
+- Be able to create presets
 
-## History / Multiple histories in parallel ?
+## :work-sign: Doing
 
-## Simple compute shaders
+### Abstract GPU API
 
-## Project save
+- Create generic classes that can be implemented both with OpenGL and Vulkan to abstract those away and allow users to write cross-platform code.
+- Add even more APIs, like WebGPU.
+- Add a type-safe C++ wrapper around OpenGL: [GL++](https://github.com/CoolLibs/glpp).
 
-## Post-processing
+### Setup a material system
 
-Good example: https://youtu.be/Y3d8jR_IwYw?t=4378. Especially the gradient technique is pretty cool.
+- Have PBR materials and a UI for them.
+- Attach those materials to objects in the is0 scene.
 
-Very good resource about bloom: https://youtu.be/tI70-HIc5ro
+### Write libraries of shader functions
 
-Outlines: https://alexanderameye.github.io/notes/rendering-outlines/ (the edge detection is particularly good)
+- Group common functions in libraries:
+    - Camera and 3D geometry
+    - Random
+    - PBR calculations
+    - Color conversions
 
-## Color spaces ?
+### Meta language on top of glsl
 
-## Bezier instead of interpolation for function curves (a.k.a. RGB curves).
+- Add a `#include` directive.
+- Add recursive functions.
+- Do generic glsl parsing: look at [shaderc](https://github.com/google/shaderc) (https://www.youtube.com/watch?v=SXDlZRDjtXg) and [naga](https://github.com/gfx-rs/naga).
+
+## :muscle: To Do
+
+### Post-processing
+
+- Here is a [great inspiration](https://youtu.be/Y3d8jR_IwYw?t=4378). Especially the gradient technique is pretty cool.
+- Here is a very good resource about [bloom](https://youtu.be/tI70-HIc5ro).
+- Here is a discussion of [outlines effects](https://alexanderameye.github.io/notes/rendering-outlines/) (the edge-detection one is particularly good).
+
+### Layer system
+
+- Think about the design: How do we combine the outputs from our different systems or from different instances of the same system.
+Do we use a classic layer structure, or a graph?
+
+### Audio
+
+- Import audio files and play them along the image generation (ideal to produce audio clips).
+- Retrieve data from the audio to drive the images (pitch, bpm, volume etc.).
+- We can search a lib in [this list](https://awesomeopensource.com/projects/audio-library). I currently found [miniaudio](https://github.com/mackron/miniaudio) for audio playback and [kfrlib](https://www.kfrlib.com/newdocs/index.html) or [aubio](https://aubio.org/) for audio analysis.
+
+### Compile for the web
+
+- Use emscripten and WebGL (or WebGPU) to be able to run our software in the browser.
+
+### History / Multiple histories in parallel ?
+
+### Lights system
+
+### Simple compute shaders
+
+### Project save
+
+### Color spaces ?
+
+### Bezier instead of interpolation for function curves (a.k.a. RGB curves).
 
 See [Bezier Rgb Curves](https://github.com/CoolLibs/Cool/blob/main/src/Cool/RgbCurve/_README.md)
 
 And how do we send these curves to the shader ? Do we bake it into a texture ?
 
-## Premultiplied alpha
+### Premultiplied alpha
 
 https://youtu.be/WtYfF48Z9mA?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E
 
-## Improve timeline navigation / display
+### Improve timeline navigation / display
 
 https://youtu.be/Y3d8jR_IwYw?t=5577
 
-## Keybinds remapping (inspired from Django ?)
+### Keybinds remapping (inspired from Django ?)
 
-## Abstract GPU  API over OpenGL and Vulkan
 
-## Scripting
+### Scripting
 
 Everythin that is doable from the UI should be doable via scripting.
 
 For the language I really like Typescript, but all options should be considered.
-
-## Node system
-
-## Ray Marching
-
-### Write many nodes
-
-### Setup a material system
-
-## Shaders
-
-### Write libraries of shader functions
-
-### Good include system / meta language on top of glsl
-
-### Glsl Parsing !
-
--> Look at shaderc (https://github.com/google/shaderc, https://www.youtube.com/watch?v=SXDlZRDjtXg) or naga (https://github.com/gfx-rs/naga)
