@@ -24,19 +24,19 @@ Remember that we are here to learn and write code because we enjoy writing code.
 <iframe width="880" height="495" src="https://www.youtube.com/embed/vINkWUe874c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 :::tip
-It is when multiple people implement similar ideas that the best ones emerge. We can all learn from each other and anyone has a chance of finding clutch little details that improve the whole system.
+It is when multiple people implement similar ideas that the best ones emerge. We can all learn from each other and anyone has a chance of finding sweet little details that improve the whole system.
 :::
 
-## Visual Quality over Performance
+## Build an ecosystem of open-source libraries
 
-We are not building a game engine ; even though performance is important because we wanna be able to visualize our changes in real time, visual quality is and should remain our main focus.
+With *Cool* we aim to produce high-quality libraries that everyone can use and contribute to.
+
+## Prefer Visual Quality to Performance
+
+We are not building a game engine; even though performance is important because we want to be able to visualize our changes in real time, visual quality is and should remain our main focus.
 
 ## Be cross-platform
 
 Refuse any solution that would reduce accessibility to the software, especially when cross-platform solutions exist.
 
 Examples of such technologies are Cuda (Nvidia only, can be replaced by Vulkan's compute shaders) and OpenGL 4.0 and greater (not suported on MacOS, can be replaced by Vulkan or WebGPU).
-
-## Build an ecosystem of open source libraries
-
-This is an occasion to work on *Cool* and put it to the test in a real-world project.
