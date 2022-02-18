@@ -3,7 +3,7 @@ title: "Our Roadmap"
 toc: true
 ---
 
-## :checkmark: Done
+## ✅ Done
 
 ### Node system
 
@@ -22,7 +22,7 @@ toc: true
 - Save changes to them in a history 
 - Be able to create presets
 
-## :work-sign: Doing
+## 🚧 Doing
 
 ### Abstract GPU API
 
@@ -49,7 +49,7 @@ toc: true
 - Add recursive functions.
 - Do generic glsl parsing: look at [shaderc](https://github.com/google/shaderc) (https://www.youtube.com/watch?v=SXDlZRDjtXg) and [naga](https://github.com/gfx-rs/naga).
 
-## :muscle: To Do
+## 💪 To Do
 
 ### Post-processing
 
