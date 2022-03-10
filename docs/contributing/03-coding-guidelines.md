@@ -66,6 +66,10 @@ Only misleading names are bad and not tolerated.
 
 [A whole conference by Kate Gregory](https://youtu.be/MBRoCdtZOYg)
 
+## Fix bugs as you see them
+
+Or at least write them to a todo list. No codebase is perfect and bugs and poor code exist everywhere. If you think you just spotted one, take a deeper look into it. Try to fix it or at least raise other people's attention about it.
+
 ## Refer to the [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
 There are a lot of great people out there that have gathered a big list of great ideas and best practices.
