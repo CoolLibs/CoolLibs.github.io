@@ -62,6 +62,13 @@ toc: true
 - Think about the design: How do we combine the outputs from our different systems or from different instances of the same system.
   Do we use a classic layer structure, or a graph?
 
+One module = something that takes inputs and gives us outputs (often images (color, depth, mask (\approx_equal alpha) etc.)). E.g. : is0, the color grader, the depth of field effect etc.
+Inputs can also be a camera for example. So that we can decide if the different modules share the same 3D camera or not.
+
+The modules are composited in a graph system: you connect images outputed by one as input to another.
+
+Users should be able to create entire modules as plugins that they can add to CoolLab easily.
+
 ### Color palettes
 
 Use [IQ's color palettes](https://iquilezles.org/www/articles/palettes/palettes.htm) everywhere!
