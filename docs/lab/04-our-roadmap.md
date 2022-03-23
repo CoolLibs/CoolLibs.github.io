@@ -19,7 +19,7 @@ toc: true
 ### Parameter system
 
 - Control them through the UI
-- Save changes to them in a history 
+- Save changes to them in a history
 - Be able to create presets
 
 ## 🚧 Doing
@@ -38,10 +38,10 @@ toc: true
 ### Write libraries of shader functions
 
 - Group common functions in libraries:
-    - Camera and 3D geometry
-    - Random
-    - PBR calculations
-    - Color conversions
+  - Camera and 3D geometry
+  - Random
+  - PBR calculations
+  - Color conversions
 
 ### Meta language on top of glsl
 
@@ -60,7 +60,13 @@ toc: true
 ### Layer system
 
 - Think about the design: How do we combine the outputs from our different systems or from different instances of the same system.
-Do we use a classic layer structure, or a graph?
+  Do we use a classic layer structure, or a graph?
+
+### Color palettes
+
+Use [IQ's color palettes](https://iquilezles.org/www/articles/palettes/palettes.htm) everywhere!
+
+Can we generate an IQ palette from a discrete palette with colors hand-picked by an artist?
 
 ### Audio
 
@@ -97,7 +103,6 @@ https://youtu.be/WtYfF48Z9mA?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E
 https://youtu.be/Y3d8jR_IwYw?t=5577
 
 ### Keybinds remapping (inspired from Django ?)
-
 
 ### Scripting
 
