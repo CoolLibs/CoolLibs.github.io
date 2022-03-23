@@ -75,6 +75,12 @@ Use [IQ's color palettes](https://iquilezles.org/www/articles/palettes/palettes.
 
 Can we generate an IQ palette from a discrete palette with colors hand-picked by an artist?
 
+### Particle system
+
+2D and 3D.
+
+Fully GPU based.
+
 ### Audio
 
 - Import audio files and play them along the image generation (ideal to produce audio clips).
