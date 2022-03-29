@@ -7,7 +7,7 @@ By order of decreasing importance:
 
 ## Learn and create resources for others to learn
 
-We are here to learn and share. As the name *Lab* suggests this is a place to make experiments and try out implementations.
+We are here to learn and share. As the name _Lab_ suggests this is a place to make experiments and try out implementations.
 
 By writing documentation and blog articles we also strive to share our findings with others.
 
@@ -19,7 +19,7 @@ While looking for inspiration, you will likely stumble upon people that have alr
 
 Remember that we are here to learn and write code because we enjoy writing code. Don't let any other consideration stop you from doing what you want!
 
-> *Telling a developer there is already code to do that is like telling a songwritter there is already a song about love* - **Every developer**
+> _Telling a developer there is already code to do that is like telling a songwritter there is already a song about love_ - **Every developer**
 
 <iframe width="880" height="495" src="https://www.youtube.com/embed/vINkWUe874c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,7 +29,7 @@ It is when multiple people implement similar ideas that the best ones emerge. We
 
 ## Build an ecosystem of open-source libraries
 
-With *Cool* we aim to produce high-quality libraries that everyone can use and contribute to.
+With _Cool_ we aim to produce high-quality libraries that everyone can use and contribute to.
 
 ## Prefer Visual Quality to Performance
 
@@ -40,3 +40,7 @@ We are not building a game engine; even though performance is important because 
 Refuse any solution that would reduce accessibility to the software, especially when cross-platform solutions exist.
 
 Examples of such technologies are Cuda (Nvidia only, can be replaced by Vulkan's compute shaders) and OpenGL 4.0 and greater (not suported on MacOS, can be replaced by Vulkan or WebGPU).
+
+## Non-destructive / Procedural
+
+Destructive workflows are so frustrating and stressful to me

@@ -55,6 +55,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/contributing", label: "Contributing", position: "left" },
           { to: "/lab", label: "Lab", position: "left" },
+          { to: "/learn", label: "Learn", position: "left" },
           { to: "/about", label: "About", position: "left" },
           {
             href: "https://github.com/CoolLibs",
