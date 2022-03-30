@@ -60,6 +60,7 @@ toc: true
 - Delaunay triangulation (on do we give it input data? Because we mostly work with images)
 - non-affine transformations (like [circle inversion](https://youtu.be/hSsRcpIsunk?t=167) (might require that the input image is much higher res than the output one, because we might scale some parts of the input a lot. Ideally we could query on the fly the color at a given position instead of storing in images of given size => maybe we don't pass images around, but functions that ouput color (and they can have caching in the form of images) OMG: blur (and every effect based on the niehgboorhood of pixels) is wrong on the edges of an image because we lack the information of what is outside the image. Using functions that can give you color in any point in space would fix that. What about performance? We might really need the caching in form of an image. We could use `CachingStrategie`s: each layer can ask the input one for an image of a given size: for example blur could ask the input to generate an image slightly larger so that blur will have all the information it needs on the edges) Its not that big of a deal to store unused pixels (in case when a layer needs info from the input in a region that is not rectanglular, like circle inversion) as long as the images are not too big. We will need two different modes: when previewing we want to optimize for speed, but when exporting we want to minimize the memory we use, so in that case non-rectangular regions could be sampled on the fly instead of beeing cached in a texture. Problem with circle inversion: if the inveting circle is inside the image, it's center maps to infinity, which represents quite a lot of pixels: this is not a problem at all if we sample, but we absolutely cannot store this in a cache image).
 - circle inversion is very cool because it preserves circle, so you can create an amazing image from a boring one that contains circles
+- post-processing is actually equivalent to the compositing system
 
 ### Layer system
 
@@ -195,7 +196,7 @@ Objects are identified by UUIDs (Universally Unique Identifiers). This allows us
 
 Object = ID + value
 
-Everybody reference it through the ID, and the `Database` is the single source of truth for the value of the object.
+Everybody reference it through the ID, and the `Database` is the single source of truth for the value of the object. Everybody else stores the ID, not the value.
 
 #### Shared objects
 
