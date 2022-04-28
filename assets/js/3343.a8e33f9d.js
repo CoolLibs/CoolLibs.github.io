@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcool_docs=self.webpackChunkcool_docs||[]).push([[3343],{3343:function(c,o,s){s.r(o)}}]);
