@@ -12,6 +12,13 @@ Our _Big Architectural Plan_ (informally known as _BAP_) will lay out the founda
 
 [See the readme of our _cmd_ library.](https://github.com/CoolLibs/cmd)
 
+###
+
+What are the problems with global access ? Does our Command-based architexture suffer from it?
+
+- hard to change: tied to the existence of one specific thing
+- hard to know all the people who mutate it
+
 ## 🚧 Part 2b: Parameters and History
 
 Once the Registries and the Commands are in place we can improve our existing Parameters and History systems. This is an optional step that doesn't prevent us from moving on to part 3.

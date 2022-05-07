@@ -1,6 +1,6 @@
 ---
-title: Blender
+title: Fluid Simulation
 ---
 import YoutubeVideo from "@site/src/components/YoutubeVideo"
 
-<YoutubeVideo id="qJEWOTZnFeg"/>
+<YoutubeVideo id="qsYE1wMEMPA"/>

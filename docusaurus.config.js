@@ -52,9 +52,9 @@ const config = {
         },
         items: [
           { to: "/tutorials", label: "Tutorials", position: "left" },
-          { to: "/blog", label: "Blog", position: "left" },
-          { to: "/contributing", label: "Contributing", position: "left" },
           { to: "/lab", label: "Lab", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/contribute", label: "Contribute", position: "left" },
           { to: "/learn", label: "Learn", position: "left" },
           { to: "/about", label: "About", position: "left" },
           {
@@ -82,7 +82,7 @@ const config = {
             ],
           },
           {
-            title: "Raise an issue !",
+            title: "Raise an issue!",
             items: [
               {
                 label: "Ask a question",

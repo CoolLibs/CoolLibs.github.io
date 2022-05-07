@@ -11,6 +11,8 @@ import LabGallery from "@site/src/components/LabGallery"
 Download for MacOS will be available "soon", once their toolchain gets fully updated to the latest C++ version.
 :::
 
+Sponsor us :heart: Even 1$ goes a long way and makes us feel supported. TODO add link to github sponsor page
+
 <LabGallery/>
 
 <!-- <a href="https://github.com/CoolLibs/Lab" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a>
@@ -27,7 +29,7 @@ A group of programers who love making art. Since we are stubborn and ambitious w
 
 ## What's in the name?
 
-_CoolLab_ is a place to experiment, a _Lab_. This refers both to the experimental / exploratory nature of generative art, and the fact that by building this software we want to push the limits of software engineering and build the software of the future, using the lessons of the past decades in software development. Enter C++ 20, modules, functional programming, a clean architecture, and many more cool stuff!
+_CoolLab_ is a place to experiment, a _Lab_. This refers both to the experimental / exploratory nature of generative art, and the fact that by building this software we want to push the limits of software engineering and build the software of the future, using the lessons of the past decades in software development. Enter C++ 20, modules, functional programming, a decoupled architecture, and many more cool stuff!
 
 _CooLab_ is also a pun on _collaboration_, reflecting our open-source nature and our desire to share knowledge and tools and build something grand together.
 

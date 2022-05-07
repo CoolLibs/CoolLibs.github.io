@@ -1,6 +1,6 @@
 ---
-title: Blender
+title: Bezier Curves
 ---
 import YoutubeVideo from "@site/src/components/YoutubeVideo"
 
-<YoutubeVideo id="qJEWOTZnFeg"/>
+<YoutubeVideo id="aVwxzDHniEw"/>

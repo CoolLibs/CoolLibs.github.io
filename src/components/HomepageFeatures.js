@@ -1,44 +1,61 @@
-import clsx from 'clsx';
-import React from 'react';
+import clsx from "clsx"
+import React from "react"
 
-import styles from './HomepageFeatures.module.css';
+import styles from "./HomepageFeatures.module.css"
 
 const FeatureList = [
   {
-    title: '🥳 Easy to use',
-    Svg: require('../../static/img/undraw_Lost_online_re_upmy.svg').default,
+    title: "🥳 Easy to use",
+    Svg: require("../../static/img/undraw_Lost_online_re_upmy.svg").default,
     description: (
       <>
-        Well documented, well designed<br/>
+        Well documented, well designed
+        <br />
         Full of tutorials
       </>
     ),
   },
   {
-    title: '💖 Open-Source',
-    Svg: require('../../static/img/undraw_Co-working_re_w93t.svg').default,
+    title: "💖 Open-Source",
+    Svg: require("../../static/img/undraw_Co-working_re_w93t.svg").default,
     description: (
       <>
-        Fully open-source, forever<br/>
-        Built on top of amazing open-source projects such as <b><i>glfw</i></b>, <b><i>Dear ImGui</i></b>, <b><i>glm</i></b> and many others
+        Fully open-source, forever
+        <br />
+        Built on top of amazing open-source projects such as{" "}
+        <b>
+          <i>glfw</i>
+        </b>
+        ,{" "}
+        <b>
+          <i>Dear ImGui</i>
+        </b>
+        ,{" "}
+        <b>
+          <i>glm</i>
+        </b>{" "}
+        and many others
       </>
     ),
   },
   {
-    title: '💻 Modern',
-    Svg: require('../../static/img/undraw_Working_late_re_0c3y.svg').default,
+    title: "💻 Modern",
+    Svg: require("../../static/img/undraw_Working_late_re_0c3y.svg").default,
     description: (
       <>
-        Written in clean C++ 20<br/>
+        Written in clean C++ 20
+        <br />
         Making use of the latest features
+        <br />
+        Very modular
       </>
     ),
   },
-];
+]
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
@@ -47,7 +64,7 @@ function Feature({Svg, title, description}) {
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 export default function HomepageFeatures() {
@@ -61,5 +78,5 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
-  );
+  )
 }

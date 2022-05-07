@@ -1,0 +1,1 @@
+TODO: add exercises to discover the code base; for example: try to create a Command that says "Hello World" (and "Goodbye World" when it is reverted).

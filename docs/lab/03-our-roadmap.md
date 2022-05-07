@@ -169,9 +169,29 @@ https://youtu.be/Y3d8jR_IwYw?t=5577
 
 ### Scripting
 
-Everythin that is doable from the UI should be doable via scripting.
+Everything that is doable from the UI should be doable via scripting.
 
 For the language I really like Typescript, but all options should be considered.
+
+_**EDIT: Here is a genius idea:**_
+
+We spawn a server which accepts HTTP requests. It then converts those requests into commands, which are submitted like any other command. This means that we can write our scripts in **_all the languages_**, we just have to know how to make HTTP requests. We could then provide helper libraries in Typescript, Python, etc. but fundamentally it will be easy for anyone to make the requests from the language of their choice!
+
+It also saves us the trouble of integrating an interpreter for say Javascript into CoolLab: we let the "burden" on the user to have an interpreter (or compiler!) for the language of their choice and send requests from it. It is much easier to install Node.js than to integrate a JS interpreter in a software :hot_face:.
+
+Pros:
+
+- sfds
+
+Cons:
+
+- No unified stack. it's harder for people to share their scripts because someone might write in Lua, and then only people with a Lua interpreter can run it. It might also break depending on versions (Python2 vs Python3). If CoolLab were te decided on a lanugage, then you could be sure and that everybody writing scripts for CoolLab could share them easily. On the other hand it helps people to integrate CoolLab in their toolchain, no matter in what language they use, because CoolLab supports all languages.
+
+### Scratch-like coding environment
+
+[_Scratch_](https://youtu.be/6ziusIDac2g) is amazing: very easy to use, very intuitive, and very powerful!
+
+Simpler to get started with than text-based scripting. Ultimately the text-based scripting and the block-based one should expose the same functionality so switching from one to the other should be pretty straight-forward. Moreover the block-based one can easily be converted into text automatically; this can be useful: you start with the simplest one (block-based), and can easily switch to text-based if you need to do more advanced stuff (even tough I believe that block-based can achieve everything as (or more) easily than text-based).
 
 ## The big plan: reactive systems, caching and modules compositing
 
