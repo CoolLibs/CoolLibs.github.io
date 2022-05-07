@@ -2,6 +2,8 @@
 title: Get started
 ---
 
+## Join the Discord
+
 ## Install
 
 Install [git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/) and [VS Code](https://code.visualstudio.com/download).
