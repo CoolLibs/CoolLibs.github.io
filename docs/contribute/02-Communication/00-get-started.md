@@ -26,6 +26,10 @@ Hook up your email to receive notifiactions in case of problems: ask an admin fo
 git clone --recursive https://github.com/CoolLibs/CoolLibs.github.io
 ```
 
+```
+npm install
+```
+
 ## Pin useful pages
 
 *Communication/tasks* for example.

@@ -24,7 +24,7 @@ Example commit message: The class `NodeEditor` of the `is0` module has been modi
 
 Use [gitmoji](https://youtu.be/uBLWVxnPLP4).
 
-You can install [the VS Code extension](https://marketplace.visualstudio.com/items?itemName=seatonjiang.gitmoji-vscode) to help you.
+You can see the ones we use regularly in the [tooling](https://github.com/CoolLibs/tooling/blob/main/gitmoji.md) folder of any Cool project.
 
 ## Work on a branch
 
