@@ -9,5 +9,5 @@ We try to do that whenever possible because it encourages a more decoupled and f
 
 ## How to
 
-- Create a new repository from [our template](https://github.com/CoolLibs/library-template)
-- Replace "mylib" with the name of the library all over the place in the newly created repo
+- Create a new repository from [our template](https://github.com/CoolLibs/library-template).
+- In the newly created repo, amend the initial commit to replace "mylib" with the name of the library all over the place, and rename the initial commit as "🎉 Initial commit".
