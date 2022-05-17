@@ -147,6 +147,8 @@ Fully GPU based.
 
 ### Simple compute shaders
 
+Goal: simplify all the boilerplate required to setup a compute shader. Offer a simple interface / a few templates for the different situations.
+
 ### Project save
 
 ### Color spaces ?
