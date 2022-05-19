@@ -9,6 +9,10 @@ import LabGallery from "@site/src/components/LabGallery"
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
 [**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
 Download for MacOS will be available "soon", once they update to the latest C++ version
+
+🌱 **This is the _alpha-1_ release** 🌱<br/>
+*CoolLab* is already usable and powerful, but many things are still to be improved.<br/>
+Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choose.
 :::
 
 <b><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a><span style={{lineHeight:2}}> Follow us on Instagram <a href="https://www.instagram.com/coollab_art/">@coollab_art </a></span><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a></b>
