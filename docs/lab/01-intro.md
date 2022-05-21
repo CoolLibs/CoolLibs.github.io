@@ -22,6 +22,8 @@ Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choo
 
 <LabGallery/>
 
+## Trailer
+
 <YoutubeVideo id="dutYmhGqhxM"/>
 
 ## What is _CoolLab_?
