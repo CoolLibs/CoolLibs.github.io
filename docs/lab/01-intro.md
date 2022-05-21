@@ -4,6 +4,7 @@ title: Lab
 ---
 
 import LabGallery from "@site/src/components/LabGallery"
+import YoutubeVideo from "@site/src/components/YoutubeVideo"
 
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
@@ -11,7 +12,7 @@ import LabGallery from "@site/src/components/LabGallery"
 Download for MacOS will be available "soon", once they update to the latest C++ version
 
 🌱 **This is the _alpha-1_ release** 🌱<br/>
-*CoolLab* is already usable and powerful, but many things are still to be improved.<br/>
+CoolLab is already usable and powerful, but many things are still to be improved.<br/>
 Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choose.
 :::
 
@@ -20,6 +21,8 @@ Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choo
 <br/><br/>
 
 <LabGallery/>
+
+<YoutubeVideo id="dutYmhGqhxM"/>
 
 ## What is _CoolLab_?
 
