@@ -4,10 +4,6 @@ title: Documentation guidelines
 
 ## Write documentation
 
-We use Doxygen-style documentation. I would suggest you install this extension for VS Code : [cschlosser.doxdocgen](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen)
-
-Then you simply need to type `/**` and press *enter* to generate the documenting comment for the class or function.
-
 ## Be close to the code
 
 The documentation should be as close as possible to the thing it explains. This means that function and class documentation should be just above their declaration. To document the whole module there is a `_README.md` file inside each folder (see [Document your design decisions](#document-your-design-decisions) to know what to put in that readme). 
@@ -17,12 +13,8 @@ The documentation should be as close as possible to the thing it explains. This 
 Try to be as descriptive as possible in your documentation: mention any hickups and subtleties, and give an example if the usage is not obvious.
 
 ```cpp
-/**
- * @brief Returns the Color of the (x, y) pixel. No bound checking is done, so undefined behaviour will occur if x is not inside [0, width() - 1] or y is not inside [0, height() - 1]
- * 
- * @param x x coordinate of the pixel (0 is at the left of the image)
- * @param y y coordinate of the pixel (0 is at the bottom of the image)
- */
+/// Returns the Color of the (x, y) pixel. No bound checking is done, so undefined behaviour will occur if x is not inside [0, width() - 1] or y is not inside [0, height() - 1]
+/// (0, 0) is at the bottom-left of the image.
 Color& color_at(unsigned int x, unsigned int y) { return _pixel_colors[x + y * _width]; }
 ```
 
@@ -33,23 +25,18 @@ There is no point in writting documentation if you can't do a better job than th
 For example, this is some useless documentation:
 
 ```cpp
-/**
- * @brief Returns the minimum of the two numbers
- * 
- * @param a The first number to compare
- * @param b The second number to compare
- */
+/// Returns the minimum of the two numbers
+/// @param a The first number to compare
+/// @param b The second number to compare
 int min(int a, int b);
 ```
 
 while this one is useful:
 
 ```cpp
-/**
- * @brief Uses < to compare the two arguments.
- * /!\ Returns a reference to one of the arguments, so you can't pass a temporary value into this function or you will get a dangling reference.
- * For example `const std::string& res = min("yo"s, my_string + "!");` is a bug because `my_string + "!"` creates a temporary that will be destroyed at the end of the line while `res` might be pointing to it.
- */
+/// Uses the `<` operator to compare the two arguments.
+/// /!\ Returns a reference to one of the arguments, so you can't pass a temporary value into this function or you will get a dangling reference!
+/// For example `const std::string& res = min("yo"s, my_string + "!");` is a bug because `my_string + "!"` creates a temporary that will be destroyed at the end of the line, while `res` might be pointing to it.
 template<typename T>
 T& min(T& a, T& b);
 ```
