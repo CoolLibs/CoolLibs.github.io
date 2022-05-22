@@ -1,5 +1,5 @@
 ---
-slug: /tutorials
+slug: /cool
 title: Welcome
 ---
 

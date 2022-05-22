@@ -17,7 +17,7 @@ function HomepageHeader() {
           Designed for computer graphics software
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/tutorials">
+          <Link className="button button--secondary button--lg" to="/cool">
             Let's get started 🚀
           </Link>
         </div>

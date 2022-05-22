@@ -44,6 +44,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: "",
         logo: {
@@ -51,11 +55,12 @@ const config = {
           src: "img/favicon-32x32.png",
         },
         items: [
-          { to: "/tutorials", label: "Tutorials", position: "left" },
+          { to: "/cool", label: "Cool", position: "left" },
           { to: "/lab", label: "Lab", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/contribute", label: "Contribute", position: "left" },
           { to: "/learn", label: "Learn", position: "left" },
+          { to: "/internships", label: "Internships", position: "left" },
           { to: "/about", label: "About", position: "left" },
           {
             href: "https://github.com/CoolLibs",
