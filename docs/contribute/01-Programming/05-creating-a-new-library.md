@@ -10,5 +10,5 @@ We try to do that whenever possible because it encourages a more decoupled and f
 ## How to
 
 - Create a new repository from [our template](https://github.com/CoolLibs/library-template).
-- In the newly created repo, amend the initial commit to replace "mylib" with the name of the library all over the place, and rename the initial commit as "🎉 Initial commit".
+- In the newly created repo, amend the initial commit to replace "mylib" with the name of the library all over the place, and rename the initial commit as `🎉 Initial commit`.
 - Add it to [our list of libraries](https://github.com/CoolLibs/.github/edit/main/profile/README.md).

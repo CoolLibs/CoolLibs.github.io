@@ -4,21 +4,18 @@ title: Get started
 
 ## Join the Discord
 
-## Install
-
-Install [git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/) and [VS Code](https://code.visualstudio.com/download).
-
-Then install those extensions for VS Code: git, markdown.
-
 ## Get added to the GitHub organization
 
-This will allow you to modify the website.
+This will allow you to modify [the tasks list](https://github.com/orgs/CoolLibs/projects/1/views/3) and this website.
 
-If you don't already have one: [create an account on GitHub](https://github.com/).
-
+If you don't already have one: [create a GitHub account](https://github.com/).<br/>
 Then ask an admin (Jules Fouchy) to add you to the organization: provide them your GitHub username.
 
-Hook up your email to receive notifiactions in case of problems: ask an admin for that (Jules Fouchy). (NB: should be done automatically when you are added to GitHub organization)
+## Install
+
+To edit the website, install [git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/) and [VS Code](https://code.visualstudio.com/download).
+
+Then install those extensions for VS Code: git, markdown.
 
 ## Download the website sources
 

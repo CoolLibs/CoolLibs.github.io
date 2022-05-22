@@ -4,17 +4,17 @@ title: Coding guidelines
 
 ## Keep functions short
 
-This helps a lot with code readability and code reuse. See [here](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-single) what the _C++ Core Guidelines_ have to say about it.
+This helps a lot with code readability and code reuse.
+
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/).
 
 ## Prefer free functions
 
 They help a lot with decoupling, code reuse, testing, _etc._
 
-Check out [this great conference](https://youtu.be/WLDT1lDOsb4) about why you should love free functions.
-
 **NB:** This doesn't mean that member functions are bad or that you should never use them. If you need to encapsulate data and only access it in well defined ways, a member function is the way to go. But if something can be done using only the public interface of a class, then a free function is preferable to a member function.
 
-To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/free-functions).
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/prefer-free-functions/).
 
 ## Appreciate simple structs
 
@@ -40,11 +40,15 @@ Cool::run<App>({Cool::WindowConfig{.title                       = "Cool Lab",
                                    .maximize_on_startup_if      = false}});
 ```
 
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/).
+
 ## Keep cohesion inside your classes
 
 A class should not be too big, and should not be handling the details of more than one system. If you start to see different and independent bits of logic grow inside a class, then separate them in two classes.
 
 In short, follow the Single Responsibility Principle.
+
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/design-cohesive-classes/).
 
 ## Use behavioural inheritance with great care
 
@@ -54,9 +58,11 @@ _Composition_ is much more flexible than inheritance and should be prefered in m
 
 If you are want polymorphism, you can achieve it dynamically through `std::variant` or _type erasure_, and statically through _function overloading_ and _templates_.
 
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/composition-over-inheritance/).
+
 ## Name with empathy
 
-**Naming is important (and hard)**, so please be mindful when you choose a name. Be explicit, **don't be too afraid of long names**. And most importantly : make sure the name describes what the thing is, nothing more, nothing less.
+**Naming is important (and hard)**, so please be mindful when you choose a name. Be explicit, **don't be too afraid of long names**. And most importantly: make sure the name describes what the thing is, nothing more, nothing less.
 Also, **don't hesitate to rename** as soon as you find a better name to describe what your thing actually is or does. (And by the way, _right click -> Rename_ is an amazing feature).
 
 The ideal name is very concise and allows readers to instantly understand what the thing is / does.
@@ -71,9 +77,12 @@ Only misleading names are bad and not tolerated.
 To help you find good names, imagine yourself explaining to someone what the function does (or even better, actually find someone and explain it to them). Listen to the words that you will naturally say: they will often be a very good name for your function. And even if it is a full sentence, a long name is better than a bad one.
 :::
 
+To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/naming/).
+
 ## Fix bugs as you see them
 
-Or at least write them to a todo list. No codebase is perfect and bugs and poor code exist everywhere. If you think you just spotted one, take a deeper look into it. Try to fix it or at least raise other people's attention about it.
+Or at least write them down [in our To-Do list](https://github.com/orgs/CoolLibs/projects/1/views/1).<br/>
+No codebase is perfect and bugs and poor code exist everywhere. If you think you just spotted one, take a deeper look into it. Try to fix it or at least raise other people's attention about it.
 
 ## Refer to the [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
@@ -89,7 +98,7 @@ If there is some invariant that must be verified, add debug checks to make sure 
 You can use `assert()` in the simpler cases, but sometimes you will need to add variables to keep track of some state. In that case, wrap the debug code in a
 
 ```cpp
-#if defined(DEBUG)
+#if DEBUG
 // . . .
 #endif
 ```
@@ -102,7 +111,7 @@ An example would be to make sure an initialization function is called once, and 
 class MyClass {
 public:
     void initialize() {
-#if defined(DEBUG)
+#if DEBUG
         assert(!_is_initialized);
         _is_initialized = true;
 #endif
@@ -115,7 +124,7 @@ public:
     }
 
 private:
-#if defined(DEBUG)
+#if DEBUG
     bool _is_initialized = false;
 #endif
 };
@@ -150,7 +159,7 @@ private:
 
 We use the famous `clang-format` as our formatting tool. You will need to install it (on Windows this happens through the `Visual Studio Installer`: modify your `Visual Studio Build Tools` and add `C++ Clang Tools for Windows`).
 
-Then for VS Code I recommended this extension: [xaver.clang-format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format) ; and you should enable `Format on Save` in your VS Code settings. After that it should just work.
+Then for VS Code I recommend this extension: [xaver.clang-format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format); and you should enable `Format on Save` in your VS Code settings. After that it should just work.
 
 Note that in some very specific cases you can disable `clang-format` locally to use some non-standard formatting, using these special comments:
 

@@ -17,7 +17,7 @@ When appropriate, specify inside `[]` which class / file / module is modified by
 Example commit message: The class `NodeEditor` of the `is0` module has been modified:
 
 ```
-[is0::NodeEditor] Generate sceneSDF from the nodes
+✨ [is0::NodeEditor] Generate sceneSDF from the nodes
 ```
 
 ## Gitmoji

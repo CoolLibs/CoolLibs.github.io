@@ -11,7 +11,5 @@ People who support us:
 
 People we support:
 
-- Inigo Quilez
-- Blender
-- The Cherno
-- Krita
+- 
+- 
