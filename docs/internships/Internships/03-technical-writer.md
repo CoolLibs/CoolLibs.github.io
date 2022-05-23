@@ -19,6 +19,7 @@ We want to write articles to shed light on what we and other people do, and to s
 - Write articles on various related topics:
     - Similar art software (Blender, TouchDesigner, ...)
     - Open-source related topics
+    - Programming in general
 - Maintain and improve the contents on this website
 - _Any other ideas coming from the intern will be welcome and considered with great care_
 
