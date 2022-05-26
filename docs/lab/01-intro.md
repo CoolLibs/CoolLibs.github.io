@@ -5,6 +5,7 @@ title: Lab
 
 import LabGallery from "@site/src/components/LabGallery"
 import YoutubeVideo from "@site/src/components/YoutubeVideo"
+import SponsorUs from "@site/src/components/_SponsorUs.md"
 
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
@@ -19,6 +20,8 @@ Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choo
 <b><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a><span style={{lineHeight:2}}> Follow us on Instagram <a href="https://www.instagram.com/coollab_art/">@coollab_art </a></span><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a></b>
 
 <br/><br/>
+
+<SponsorUs/>
 
 <LabGallery/>
 
