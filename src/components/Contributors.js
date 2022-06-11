@@ -36,6 +36,18 @@ export default ({}) => {
           link="https://github.com/MesQuentin"
           roles={["Programmer"]}
         />,
+        <Contributor
+          name="Lucas David"
+          github_name="MeucheRoume"
+          link="http://lucasdavid.fr/"
+          roles={["Programmer"]}
+        />,
+        <Contributor
+          name="Anaïs Sarata Gougne"
+          github_name="TaliaKah"
+          link="https://taliakah.gitlab.io/portfolio/"
+          roles={["Programmer"]}
+        />,
       ]}
     />
   )
