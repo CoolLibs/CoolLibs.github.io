@@ -1,3 +1,4 @@
+import BrowserOnly from "@docusaurus/BrowserOnly"
 import React from "react"
 
 // https://stackoverflow.com/a/12646864/15432269
@@ -13,10 +14,14 @@ function shuffleArray(array) {
 export default ({ elements }) => {
   shuffleArray(elements)
   return (
-    <ul>
-      {elements.map((element) => (
-        <li>{element}</li>
-      ))}
-    </ul>
+    <BrowserOnly>
+      {() => (
+        <ul>
+          {elements.map((element) => (
+            <li>{element}</li>
+          ))}
+        </ul>
+      )}
+    </BrowserOnly>
   )
 }
