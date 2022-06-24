@@ -19,6 +19,10 @@ Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choo
 
 <b><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a><span style={{lineHeight:2}}> Follow us on Instagram <a href="https://www.instagram.com/coollab_art/">@coollab_art </a></span><a href="https://www.instagram.com/coollab_art/"><img src="img/instagram.png" class="image-in-text"/></a></b>
 
+<br/>
+
+<b><a href="https://www.tiktok.com/@coollab_art"><img src="img/tiktok.png" class="image-in-text"/></a><span style={{lineHeight:2}}> Follow us on TikTok <a href="https://www.tiktok.com/@coollab_art">@coollab_art </a></span><a href="https://www.tiktok.com/@coollab_art"><img src="img/tiktok.png" class="image-in-text"/></a></b>
+
 <br/><br/>
 
 <SponsorUs/>
