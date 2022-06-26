@@ -27,6 +27,10 @@ Remember that we are here to learn and write code because we enjoy writing code.
 It is when multiple people implement similar ideas that the best ones emerge. We can all learn from each other and anyone has a chance of finding sweet little details that improve the whole system.
 :::
 
+## Easy to use
+
+We can't produce as many cool features as big softwares, so we should embrace our minimalistic essence and produce few but polished and intuitive features. Our tool might only be useful for a few use cases, but we want it to be the best for those use cases.
+
 ## Build an ecosystem of open-source libraries
 
 With _Cool_ we aim to produce high-quality libraries that everyone can use and contribute to.
