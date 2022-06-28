@@ -48,6 +48,12 @@ export default ({}) => {
           link="https://taliakah.gitlab.io/portfolio/"
           roles={["Programmer"]}
         />,
+        <Contributor
+          name="Yvan Smorag"
+          github_name="Luciditay"
+          link="https://github.com/Luciditay"
+          roles={["Technical Writer"]}
+        />,
       ]}
     />
   )
