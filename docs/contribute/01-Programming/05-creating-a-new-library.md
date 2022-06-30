@@ -1,5 +1,5 @@
 ---
-title: How To ᲼ ᲼| Create a new library
+title: How To | Create a new library
 ---
 
 ## Brief

@@ -6,7 +6,7 @@ title: Guidelines | Documentation
 
 ## Be close to the code
 
-The documentation should be as close as possible to the thing it explains. This means that function and class documentation should be just above their declaration. To document the whole module there is a `_README.md` file inside each folder (see [Document your design decisions](#document-your-design-decisions) to know what to put in that readme). 
+The documentation should be as close as possible to the thing it explains. This means that function and class documentation should be just above their declaration. To document the whole module there is a `_README.md` file inside each folder. (See [Document your design decisions](#document-your-design-decisions) to know what to put in that ReadMe). 
 
 ## Be complete
 
