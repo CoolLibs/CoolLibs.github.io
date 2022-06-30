@@ -10,7 +10,7 @@ export default ({}) => {
           name="Jules Fouchy"
           github_name="julesfouchy"
           link="https://julesfouchy.github.io/"
-          roles={["Project Lead", "Programmer"]}
+          roles={["Programmer", "Project Lead"]}
         />,
         <Contributor
           name="Jolan Goulin"
