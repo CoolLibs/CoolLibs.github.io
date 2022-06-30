@@ -60,6 +60,12 @@ export default ({}) => {
           link="https://github.com/dsmtE"
           roles={["Programmer", "R&D"]}
         />,
+        <Contributor
+          name="Jordan Roberty"
+          github_name="badbois"
+          link="https://github.com/badbois"
+          roles={["Programmer"]}
+        />,
       ]}
     />
   )
