@@ -54,6 +54,12 @@ export default ({}) => {
           link="https://github.com/Luciditay"
           roles={["Technical Writer"]}
         />,
+        <Contributor
+          name="Enguerrand de Smet"
+          github_name="dsmtE"
+          link="https://github.com/dsmtE"
+          roles={["Programmer", "R&D"]}
+        />,
       ]}
     />
   )
