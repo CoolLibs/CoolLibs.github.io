@@ -4,7 +4,7 @@ title: Details you need to know
 
 ## imgui.ini
 
-The ```imgui.ini``` file stores the position and size of our ImGui windows. It is nice to have it on the repo so that anyone cloning it will get a nice UI layout from the get go.
+The `imgui.ini` file stores the position and size of our ImGui windows. It is nice to have it on the repo so that anyone cloning it will get a nice UI layout from the get go.
 
 But you might want to do 
 
@@ -15,6 +15,11 @@ git update-index --assume-unchanged imgui.ini
 to ignore it from your commits. (It does change every time you move a window in your app, so basically it would be present in every commit).
 
 You should only commit it once in a while, when new windows are added for example.
+
+:::tip
+We have Python scripts that can help you automatically commit / discard / hide / show `imgui.ini`.<br/>
+They are at the root of the project and start with *"imgui_ini__"*.
+:::
 
 ## Logging
 
