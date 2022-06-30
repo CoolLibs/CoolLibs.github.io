@@ -1,5 +1,5 @@
 ---
-title: Documentation guidelines
+title: Guidelines | Documentation
 ---
 
 ## Write documentation
