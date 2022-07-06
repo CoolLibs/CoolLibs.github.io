@@ -1,5 +1,5 @@
 ---
-title: Coding guidelines
+title: Guidelines | Coding
 ---
 
 ## Keep functions short

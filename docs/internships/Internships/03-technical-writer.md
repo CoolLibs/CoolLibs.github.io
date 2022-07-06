@@ -5,9 +5,7 @@ pagination_next: null
 pagination_prev: null
 ---
 
-## 👋 Open Position for Summer 2022
-
-We are looking for an intern!
+## 🏖️ No places left for Summer 2022
 
 ## Missions
 

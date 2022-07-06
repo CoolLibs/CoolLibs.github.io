@@ -11,8 +11,8 @@ export default ({ name, github_name, link, roles }) => {
           />{" "}
           {name}
         </a>
-        , <i>{roles.join(", ")}</i>
       </b>
+      , <i>{roles.join(" | ")}</i>
     </span>
   )
 }

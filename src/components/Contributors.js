@@ -10,7 +10,7 @@ export default ({}) => {
           name="Jules Fouchy"
           github_name="julesfouchy"
           link="https://julesfouchy.github.io/"
-          roles={["Project Lead", "Programmer"]}
+          roles={["Programmer", "Project Lead"]}
         />,
         <Contributor
           name="Jolan Goulin"
@@ -47,6 +47,30 @@ export default ({}) => {
           github_name="TaliaKah"
           link="https://taliakah.gitlab.io/portfolio/"
           roles={["Programmer"]}
+        />,
+        <Contributor
+          name="Yvan Smorag"
+          github_name="Luciditay"
+          link="https://github.com/Luciditay"
+          roles={["Technical Writer"]}
+        />,
+        <Contributor
+          name="Enguerrand de Smet"
+          github_name="dsmtE"
+          link="https://github.com/dsmtE"
+          roles={["Programmer", "R&D"]}
+        />,
+        <Contributor
+          name="Jordan Roberty"
+          github_name="badbois"
+          link="https://github.com/badbois"
+          roles={["Programmer"]}
+        />,
+        <Contributor
+          name="Paul Fouchy"
+          github_name="PaulFhy"
+          link="https://www.linkedin.com/in/paul-fouchy-6b3562231/"
+          roles={["Community Manager"]}
         />,
       ]}
     />
