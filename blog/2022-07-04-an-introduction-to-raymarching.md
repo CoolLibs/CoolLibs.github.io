@@ -13,7 +13,7 @@ In this article we will present this technique and discuss about the pros and co
 A commonly used way to render a 3D scene is called raytracing, but before explainig you how it works, we need to understand how an image is displayed on screen.
 We have a 3D scene, in which we place a camera (i.e the point of view from where we are looking at the scene). From this point, we are watching a 3D scene that we have now to represent on a 2D plane : our computer screen. In order to do so, the process is exactly the same as for drawing. To draw a scene you are looking at with your eye (the camera), you will use the rule of perspective to project it on paper. For 3D images, we are simply replacing paper by the computer monitor. Eventually, we just have to use the perspective rules for each object of the scene and we will have the shape of our 3d scene. *Question : Perspective Implementée naturellement dans OpenGL non ?* Let's spice it up with colors !
 
-![perspective](../static/img/Blog/RayMarching/Perspective.gif) 
+![perspective](../static/img/Blog/RayMarching/Perspective2.gif) 
 
 Lofe
  
@@ -52,7 +52,7 @@ For example, we can define a distance from any point in space (x, y, z) to a sph
 distance(p, s) = distance(p, c) - r; //Distance between the center of the sphere
                                 //and the point minus the radius of the sphere
 ```
-(SHEMA ?)
+![Shéma cercle](../static/img/Blog/RayMarching/circle-distance.png)
  
 For a mathematical and coding development, see the bibliography ! :smile: (rajouter lien à biblio)
  
@@ -69,8 +69,9 @@ Autre chose ?
  
  
  
- 
- 
+Source :
+
+https://michaelwalczyk.com/blog-ray-marching.html
  
 
 
