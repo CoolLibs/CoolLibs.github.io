@@ -8,6 +8,10 @@ This helps a lot with code readability and code reuse.
 
 To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/).
 
+:::tip
+As soon as a function becomes too long, split it into several smaller functions.
+:::
+
 ## Prefer free functions
 
 They help a lot with decoupling, code reuse, testing, _etc._
@@ -15,6 +19,10 @@ They help a lot with decoupling, code reuse, testing, _etc._
 **NB:** This doesn't mean that member functions are bad or that you should never use them. If you need to encapsulate data and only access it in well defined ways, a member function is the way to go. But if something can be done using only the public interface of a class, then a free function is preferable to a member function.
 
 To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/prefer-free-functions/).
+
+:::note
+All the free functions related to a class `ClassName` should be put in a namespace called `ClassNameU`. The `U` stands for "Utility".
+:::
 
 ## Appreciate simple structs
 
@@ -171,3 +179,58 @@ void on_wheel_up    (Camera& camera)                         { std::visit([&](au
 void on_wheel_scroll(Camera& camera, float dl)               { std::visit([&](auto&& state) { state.on_wheel_scroll(*this, camera, dl);    }, _state); }
 // clang-format on
 ```
+
+### No const on by-value parameters
+
+:::danger Don't
+```cpp
+void do_something(const int some_parameter) {/*...*/}
+```
+:::
+
+:::tip Do
+```cpp
+void do_something(int some_parameter) {/*...*/}
+```
+:::
+
+**NB:** This doesn't apply to references! They should be declared `const` whenever you don't intend to mutate the argument: `void do_something(const SomeClass& some_parameter); // GOOD`
+
+**Reason:** This clutters the declaration and brings little information. It is already implicit that parameters are not gonna be mutated.
+
+### Use trailing return types
+
+:::danger Don't
+```cpp
+bool do_something();
+```
+:::
+
+:::tip Do
+```cpp
+auto do_something() -> bool;
+```
+:::
+
+:::tip Do
+```cpp
+void do_something();
+```
+:::
+
+### Initialize with `{}`
+
+:::danger Don't
+```cpp
+int a = 5;
+```
+:::
+
+:::tip Do
+```cpp
+int a{5};
+```
+:::
+
+### Distinguish pointers and references
+ (nb: no raw pointers, that's another story)
