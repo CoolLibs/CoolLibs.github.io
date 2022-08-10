@@ -20,6 +20,8 @@ If you want to see the code you need to call to create a given widget, use the *
 
 ### `SameLine()`
 
+### `Separator()`
+
 ### `PushID()` / `PopID()`
 
 See [*Dear ImGui's FAQ about IDs*](https://github.com/ocornut/imgui/blob/master/docs/FAQ.md#q-about-the-id-stack-system).
