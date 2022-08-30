@@ -7,6 +7,8 @@ import LabGallery from "@site/src/components/LabGallery"
 import YoutubeVideo from "@site/src/components/YoutubeVideo"
 import SponsorUs from "@site/src/components/_SponsorUs.md"
 
+_❝ CoolLab is a generative art software that gives you **powerful tools** and the power to **customize these tools** and **create new ones**.❞
+_
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
 [**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
