@@ -6,6 +6,7 @@ authors: jules
 &nbsp&nbsp&nbsp&nbsp&nbsp 👩‍💻 GLSL is a pretty low-level language. But what if we turned it into a classy **functional programming language** capable of handling **higher-order functions**? That is, giving it the ability to pass functions as parameters to other functions. *Well, this is exactly what CoolLab does!*
 
 <!--truncate-->
+
 &nbsp&nbsp&nbsp&nbsp&nbsp In fact higher-order functions are so important that Inigo Quilez often usees them [in pseudo-code](https://iquilezles.org/articles/distfunctions/):
 ![](./img/spmf1.png)
 
