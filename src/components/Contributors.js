@@ -66,6 +66,12 @@ export default ({}) => {
           link="https://github.com/badbois"
           roles={["Programmer"]}
         />,
+        <Contributor
+          name="Éva Benharira"
+          github_name="EvaBien"
+          link="https://www.linkedin.com/in/eva-benharira-ingenieure-creative/"
+          roles={["Community Management Advice"]}
+        />,
       ]}
     />
   )
