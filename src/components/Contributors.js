@@ -66,12 +66,6 @@ export default ({}) => {
           link="https://github.com/badbois"
           roles={["Programmer"]}
         />,
-        <Contributor
-          name="Paul Fouchy"
-          github_name="PaulFhy"
-          link="https://www.linkedin.com/in/paul-fouchy-6b3562231/"
-          roles={["Community Manager"]}
-        />,
       ]}
     />
   )
