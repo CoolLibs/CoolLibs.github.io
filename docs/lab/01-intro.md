@@ -10,7 +10,7 @@ import SponsorUs from "@site/src/components/_SponsorUs.md"
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
 [**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
-Download for MacOS will be available "soon", once they update to the latest C++ version
+[**Download CoolLab for MacOS**](/CoolLab-MacOS.zip)
 
 🌱 **This is the _alpha-1_ release** 🌱<br/>
 CoolLab is already usable and powerful, but many things are still to be improved.<br/>
