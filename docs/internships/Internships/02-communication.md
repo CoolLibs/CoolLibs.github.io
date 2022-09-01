@@ -5,7 +5,7 @@ pagination_next: null
 pagination_prev: null
 ---
 
-## 👀 Open positions for Summer 2023
+## 👀 Open position for Summer 2023
 
 ## Missions
 
