@@ -1,5 +1,5 @@
 ---
-title: Ints cause precision errors
+title: The Dear ImGui model for user extensibility
 authors: jules
 ---
 

@@ -22,6 +22,8 @@ To learn more: [_Learn Clean Code with C++_](https://julesfouchy.github.io/Learn
 
 :::note
 All the free functions related to a class `ClassName` should be put in a namespace called `ClassNameU`. The `U` stands for "Utility".
+
+These functions should be in the same file as the class they relate to: this makes it easy to find them.
 :::
 
 ## Appreciate simple structs
@@ -233,4 +235,5 @@ int a{5};
 :::
 
 ### Distinguish pointers and references
- (nb: no raw pointers, that's another story)
+
+Pointers indicate that `null` is a possibility, whereas references are guaranteed to always point to something.

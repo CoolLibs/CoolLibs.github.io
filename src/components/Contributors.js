@@ -67,10 +67,10 @@ export default ({}) => {
           roles={["Programmer"]}
         />,
         <Contributor
-          name="Paul Fouchy"
-          github_name="PaulFhy"
-          link="https://www.linkedin.com/in/paul-fouchy-6b3562231/"
-          roles={["Community Manager"]}
+          name="Éva Benharira"
+          github_name="EvaBien"
+          link="https://www.linkedin.com/in/eva-benharira-ingenieure-creative/"
+          roles={["Community Management Advice"]}
         />,
       ]}
     />
