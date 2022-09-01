@@ -5,15 +5,18 @@ pagination_next: null
 pagination_prev: null
 ---
 
-## 🏖️ No places left for Summer 2022
+## 👀 Open positions for Summer 2023
 
 ## Missions
+
+- Yet to be determined
 
 ## Skills
 
 **Required:**
 
-- Modern C++ (C++17 and C++20)
+- Modern C++ (C++20)
+- The glsl shader language
 - Computer Graphics (OpenGL, or ideally Vulkan)
 
 **Optional:**

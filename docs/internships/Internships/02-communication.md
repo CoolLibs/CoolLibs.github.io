@@ -5,7 +5,7 @@ pagination_next: null
 pagination_prev: null
 ---
 
-## 🏖️ No places left for Summer 2022
+## 👀 Open positions for Summer 2023
 
 ## Missions
 
@@ -15,7 +15,7 @@ In order to achieve those goals the intern will have to:
 - Create content for our social media accounts (Instagram, TikTok, ...) and manage them
 - Share our artworks and articles on as many platforms as possible (Reddit, social media, ...)
 - Maintain and improve the contents on this website
-- Start and promote our fundraising campaign
+- Promote our fundraising campaign
 - _Any other ideas coming from the intern about how to improve our visibility will be welcome and considered with great care_
 
 ## Skills
