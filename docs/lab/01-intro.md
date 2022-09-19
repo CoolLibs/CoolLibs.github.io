@@ -11,7 +11,9 @@ _❝ CoolLab is a generative art software that gives you **powerful tools** and 
 
 <!-- _❝ Composition is at the heart of every good system.❞_
 
-_❝ Resolution-independent.❞_ -->
+_❝ Resolution-independent.❞_
+
+_❝ Infinitely large and infinitely detailed images. Our images are maps from the entire plane ($\mathbb{R}^2$) to colors.❞_ -->
 
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
