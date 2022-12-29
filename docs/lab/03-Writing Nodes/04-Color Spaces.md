@@ -4,9 +4,15 @@ BUT when the shader asks for some *RGB* or *RGBA*, we use **linear RGB and premu
 
 NB: for RGB->RGB effects, if some RGBA is plugged in as input, we first un-premultiply the RGB, then pass it to the effect, then re-premultiply. This is the same behavior as ["Pre-Divide / Post-Multiply" in Resolve/Fusion](https://youtu.be/klqSJiPqmGU). This basically means that everything will work as expected intuitively and you don't have to worry about it.
 
+Here is a good recap of what CIELAB, Linear RGB and sRGB are for: ["RGB to XYZ: The Science and History of Color" by John Austin](https://youtu.be/AS1OHMW873s).
+
 ### CIELAB
 
 In this space, the euclidean distance between the `vec3`s exactly corresponds to the perceived difference in color by a human. This means that if you need to do anything that is perceptually accurate, e.g. blending between two colors, CIELAB is what you need. This is the space that most effects will want to use.
+
+You also have access to the constants `Cool_black_in_cielab` and `Cool_white_in_cielab` if you need to interpolate with these.
+
+### HSLuv
 
 ### Linear RGB
 
