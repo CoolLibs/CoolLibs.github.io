@@ -20,7 +20,7 @@ _❝ Infinitely large and infinitely detailed images. Our images are maps from t
 [**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
 [**Download CoolLab for MacOS**](/CoolLab-MacOS.zip)
 
-🌱 **This is the _alpha-1_ release** 🌱<br/>
+🌱 **This is the _alpha-2_ release** 🌱<br/>
 CoolLab is already usable and powerful, but many things are still to be improved.<br/>
 Please share us your feedback at https://github.com/CoolLibs/Lab/issues/new/choose.
 :::
