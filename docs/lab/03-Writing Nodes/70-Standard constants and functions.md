@@ -1,0 +1,2 @@
+
+You have access to quite a few constants and functions like `PI`, `TAU`, `saturate()` and `smooth_min_polynomial()`. For a complete list check out [*Cool/res/shaders/math.glsl*](https://github.com/CoolLibs/Cool/blob/main/res/shaders/math.glsl) and [*res/shader-utils*](https://github.com/CoolLibs/Lab/tree/main/res/shader-utils) that are located next to your CoolLab executable.
