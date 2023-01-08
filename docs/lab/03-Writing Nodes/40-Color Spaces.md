@@ -6,6 +6,16 @@ NB: for RGB->RGB effects, if some RGBA is plugged in as input, we first un-premu
 
 Here is a good recap of what CIELAB, Linear RGB and sRGB are for: ["RGB to XYZ: The Science and History of Color" by John Austin](https://youtu.be/AS1OHMW873s).
 
+
+If you have the choice between several color spaces because your effect will work the same in any of those, here is a list in order of which to prefer:
+- CIELAB
+- Linear RGB
+- sRGB
+- HSLuv
+
+
+
+
 ### CIELAB
 
 In this space, the euclidean distance between the `vec3`s exactly corresponds to the perceived difference in color by a human. This means that if you need to do anything that is perceptually accurate, e.g. blending between two colors, CIELAB is what you need. This is the space that most effects will want to use.
