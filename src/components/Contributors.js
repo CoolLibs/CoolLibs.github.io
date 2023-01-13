@@ -73,12 +73,6 @@ export default ({}) => {
           roles={["Programmer", "VFX Artist"]}
         />,
         <Contributor
-          name="Mattéo Leclercq"
-          github_name="MatteoL-W"
-          link="https://matteo-leclercq.fr/"
-          roles={["Programmer", "VFX Artist"]}
-        />,
-        <Contributor
           name="Wendy Gervais"
           github_name="kaugrv"
           link="https://linktr.ee/commandant.grant"
