@@ -66,6 +66,42 @@ export default ({}) => {
           link="https://www.linkedin.com/in/eva-benharira-ingenieure-creative/"
           roles={["Community Management Advice"]}
         />,
+        <Contributor
+          name="Mattéo Leclercq"
+          github_name="MatteoL-W"
+          link="https://matteo-leclercq.fr/"
+          roles={["Programmer", "VFX Artist"]}
+        />,
+        <Contributor
+          name="Mattéo Leclercq"
+          github_name="MatteoL-W"
+          link="https://matteo-leclercq.fr/"
+          roles={["Programmer", "VFX Artist"]}
+        />,
+        <Contributor
+          name="Wendy Gervais"
+          github_name="kaugrv"
+          link="https://linktr.ee/commandant.grant"
+          roles={["Programmer", "VFX Artist"]}
+        />,
+        <Contributor
+          name="Romain Serres"
+          github_name="Bouillon2Poulet"
+          link="https://www.instagram.com/consomme2poyo/"
+          roles={["Programmer", "VFX Artist"]}
+        />,
+        <Contributor
+          name="Lou Couard"
+          github_name="Couloir00"
+          link="https://loucouard.wixsite.com/website"
+          roles={["Programmer", "VFX Artist"]}
+        />,
+        <Contributor
+          name="Tristan Debeaune"
+          github_name="tristetemps666"
+          link="https://github.com/tristetemps666"
+          roles={["Programmer", "VFX Artist"]}
+        />,
       ]}
     />
   )
