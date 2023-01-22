@@ -5,9 +5,9 @@ To create a new node you need to add a new *.clbnode* file in the *Nodes* folder
 
 Here is an example of a very basic node:
 ```glsl title="Invert Color.clbnode"
-sRGB main(sRGB color)
+sRGB main(sRGB Color)
 {
-    return vec3(1.) - color;
+    return vec3(1.) - Color;
 }
 ```
 

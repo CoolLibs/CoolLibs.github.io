@@ -18,7 +18,7 @@ And here are all the remaining types, that are seldom used:
 - `Direction2D` (`vec2` under the hood, guaranteed to be of length 1).
 
 :::info
-It is important to note that these types are purely semantic, and in your code you can just treat them as the regular int / float / vec2 / vec3 / vec4 of glsl.
+It is important to note that these types are purely semantic, and in your code you can just treat them as regular int / float / vec2 / vec3 / vec4.
 :::
 
 ## Examples
@@ -26,14 +26,14 @@ It is important to note that these types are purely semantic, and in your code y
 Here are a few examples of typical `main` functions you might define:
 
 ```glsl title="Color Transformation"
-CIELAB main(CIELAB color)
+CIELAB main(CIELAB Color)
 {
     // ...
 }
 ```
 
 ```glsl title="Space Transformation (Zoom, Distortion, ...)"
-UV main(UV uv)
+UV main(UV Input)
 {
     // ...
 }
@@ -54,7 +54,7 @@ float main(float x)
 ```
 
 ```glsl title="Parametric curve"
-UV main(float t)
+UV main(float Percentage)
 {
     // ...
 }
@@ -68,21 +68,21 @@ float main(UV uv)
 ```
 
 ```glsl title="Blend Mode"
-CIELAB_PremultipliedA main(CIELAB_PremultipliedA color1, CIELAB_PremultipliedA color2)
+CIELAB_PremultipliedA main(CIELAB_PremultipliedA Over, CIELAB_PremultipliedA Under)
 {
     // ...
 }
 ```
 
 ```glsl title="Black & White"
-float main(CIELAB color)
+float main(CIELAB Color)
 {
     // ...
 }
 ```
 
 ```glsl title="Colorizer"
-CIELAB main(float x)
+CIELAB main(float Greyscale)
 {
     // ...
 }
