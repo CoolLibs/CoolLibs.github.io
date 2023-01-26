@@ -17,7 +17,7 @@ _❝ Infinitely large and infinitely detailed images. Our images are maps from t
 
 :::info Download
 [**Download CoolLab for Windows**](/CoolLab-Windows.zip)<br/>
-[**Download CoolLab for Linux**](/CoolLab-Linux.zip)<br/>
+[**Download CoolLab for Linux**](/CoolLab-Linux.tar.gz)<br/>
 [**Download CoolLab for MacOS**](/CoolLab-MacOS.zip)
 
 🌱 **This is the _beta-0_ release** 🌱<br/>
