@@ -1,4 +1,0 @@
----
-slug: /lab
-title: Lab
----
