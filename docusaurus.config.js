@@ -69,7 +69,7 @@ const config = {
         },
         items: [
           { to: "/cool", label: "Cool", position: "left" },
-          { to: "/lab-dev", label: "Lab", position: "left" },
+          { to: "/lab", label: "Lab", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/contribute", label: "Contribute", position: "left" },
           { to: "/learn", label: "Learn", position: "left" },

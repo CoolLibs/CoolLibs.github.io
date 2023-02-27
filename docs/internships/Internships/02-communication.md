@@ -9,7 +9,7 @@ pagination_prev: null
 
 ## Missions
 
-The overall goal of this intership will be to give as much visibility as possible to our software [_CoolLab_](/lab-dev) and our initiatives for the open-source world. We want to raise interest in our software, have plenty of people try it, and start to raise funds through donations and sponsorships.<br/>
+The overall goal of this intership will be to give as much visibility as possible to our software [_CoolLab_](/lab) and our initiatives for the open-source world. We want to raise interest in our software, have plenty of people try it, and start to raise funds through donations and sponsorships.<br/>
 In order to achieve those goals the intern will have to:
 
 - Create content for our social media accounts (Instagram, TikTok, ...) and manage them

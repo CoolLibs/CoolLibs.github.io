@@ -1,0 +1,4 @@
+---
+slug: /lab
+title: Lab
+---

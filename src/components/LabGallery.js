@@ -6,46 +6,46 @@ export default () => {
   return (
     <Carousel autoPlay={false} dynamicHeight={true} infiniteLoop={true}>
       <div>
-        <img src="img/lab-dev/1.png" />
+        <img src="img/lab/1.png" />
       </div>
       <div>
-        <img src="img/lab-dev/2.png" />
+        <img src="img/lab/2.png" />
       </div>
       <div>
-        <img src="img/lab-dev/3.png" />
+        <img src="img/lab/3.png" />
       </div>
       <div>
-        <img src="img/lab-dev/4.png" />
+        <img src="img/lab/4.png" />
       </div>
       <div>
-        <img src="img/lab-dev/5.png" />
+        <img src="img/lab/5.png" />
       </div>
       <div>
-        <img src="img/lab-dev/6.png" />
+        <img src="img/lab/6.png" />
       </div>
       <div>
-        <img src="img/lab-dev/7.png" />
+        <img src="img/lab/7.png" />
       </div>
       <div>
-        <img src="img/lab-dev/8.png" />
+        <img src="img/lab/8.png" />
       </div>
       <div>
-        <img src="img/lab-dev/9.png" />
+        <img src="img/lab/9.png" />
       </div>
       <div>
-        <img src="img/lab-dev/10.png" />
+        <img src="img/lab/10.png" />
       </div>
       <div>
-        <img src="img/lab-dev/11.png" />
+        <img src="img/lab/11.png" />
       </div>
       <div>
-        <img src="img/lab-dev/12.png" />
+        <img src="img/lab/12.png" />
       </div>
       <div>
-        <img src="img/lab-dev/13.png" />
+        <img src="img/lab/13.png" />
       </div>
       <div>
-        <img src="img/lab-dev/14.png" />
+        <img src="img/lab/14.png" />
       </div>
     </Carousel>
   )

@@ -46,7 +46,7 @@ export default function Home() {
             the big framework.
             <br />
             🎨 With this framework we build{" "}
-            <a href="/lab-dev">
+            <a href="/lab">
               a generative-art software, <i>CoolLab</i>
             </a>
             .
