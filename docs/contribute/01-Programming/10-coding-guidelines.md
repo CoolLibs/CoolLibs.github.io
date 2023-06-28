@@ -182,24 +182,6 @@ void on_wheel_scroll(Camera& camera, float dl)               { std::visit([&](au
 // clang-format on
 ```
 
-### No const on by-value parameters
-
-:::danger Don't
-```cpp
-void do_something(const int some_parameter) {/*...*/}
-```
-:::
-
-:::tip Do
-```cpp
-void do_something(int some_parameter) {/*...*/}
-```
-:::
-
-**NB:** This doesn't apply to references! They should be declared `const` whenever you don't intend to mutate the argument: `void do_something(const SomeClass& some_parameter); // GOOD`
-
-**Reason:** This clutters the declaration and brings little information. It is already implicit that parameters are not gonna be mutated.
-
 ### Use trailing return types
 
 :::danger Don't
