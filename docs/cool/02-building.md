@@ -6,7 +6,7 @@ title: Compiling your first project
 
 Since we use Git submodules you need to clone them alongside the project. The easiest way is to use the command
 ```
-git clone --recursive https://github.com/CoolLibs/Demo
+git clone --recursive https://github.com/CoolLibs/Lab
 ```
 
 If later on while compiling you get an error like
