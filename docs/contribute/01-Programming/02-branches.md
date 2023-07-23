@@ -1,6 +1,8 @@
 ---
-title: Workflow | Branches
+title: Workflow | Branches TODO rename as "When starting to work on something"
 ---
+
+- Create a branch on *Cool*, and a branch on *CoolLab*. **They should both have the same name**.
 
 :::tip
 **Never commit on the *main* branch!**<br/>
