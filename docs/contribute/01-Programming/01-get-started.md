@@ -14,3 +14,8 @@ If you add a third-party library, check its license and, if it requires it, make
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_SOURCE_DIR}\\\\LICENSE")
 install(FILES "lib/cpp-httplib/LICENSE" DESTINATION license/cpp-httplib)
 ```
+
+Talk about debug options (and you can create your own)
+
+Talk about shortcut for ImGui Item Picker
+Talk about the ImGui demo window
