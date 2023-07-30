@@ -19,3 +19,5 @@ Talk about debug options (and you can create your own)
 
 Talk about shortcut for ImGui Item Picker
 Talk about the ImGui demo window
+
+TODO edit Lab's readme to point to the right section of this website for the devs. And move the part about how to run tests in this website.
