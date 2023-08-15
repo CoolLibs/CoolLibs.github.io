@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coollibs.github.io/blog</id>
     <title>Cool Blog</title>
-    <updated>2022-08-23T00:00:00.000Z</updated>
+    <updated>2023-08-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coollibs.github.io/blog"/>
     <subtitle>Cool Blog</subtitle>
     <icon>https://coollibs.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[App Installers: How to properly release your application for end-users]]></title>
+        <id>/2023/08/15/App installer</id>
+        <link href="https://coollibs.github.io/blog/2023/08/15/App installer"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can now write scripts to control CoolLab. Everything that you can do in the UI in now also doable through scripts.]]></summary>
+        <content type="html"><![CDATA[<p>You can now write scripts to control CoolLab. Everything that you can do in the UI in now also doable through scripts.<br>
+Moreover, you can write those scripts in <strong><em>the language of your choice</em></strong>! That's right, <strong><em>every</em></strong> language in the world will do, even the one you wrote last weekend and that only you possesses an interpreter for.</p><p>All of this magic relies on a well knwown friend: <strong>the HTTP protocol</strong>.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="macos">MacOS<a class="hash-link" href="#macos" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="infoplist">Info.plist<a class="hash-link" href="#infoplist" title="Direct link to heading">​</a></h3><p>Good documentation of all the keys:
+<a href="https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html" target="_blank" rel="noopener noreferrer">https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html</a></p>]]></content>
+        <author>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shader Programming made Functional]]></title>
         <id>/2022/08/23/shader-programming-made-functional</id>

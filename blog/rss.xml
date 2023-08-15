@@ -4,9 +4,19 @@
         <title>Cool Blog</title>
         <link>https://coollibs.github.io/blog</link>
         <description>Cool Blog</description>
-        <lastBuildDate>Tue, 23 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[App Installers: How to properly release your application for end-users]]></title>
+            <link>https://coollibs.github.io/blog/2023/08/15/App installer</link>
+            <guid>/2023/08/15/App installer</guid>
+            <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can now write scripts to control CoolLab. Everything that you can do in the UI in now also doable through scripts.]]></description>
+            <content:encoded><![CDATA[<p>You can now write scripts to control CoolLab. Everything that you can do in the UI in now also doable through scripts.<br>
+Moreover, you can write those scripts in <strong><em>the language of your choice</em></strong>! That's right, <strong><em>every</em></strong> language in the world will do, even the one you wrote last weekend and that only you possesses an interpreter for.</p><p>All of this magic relies on a well knwown friend: <strong>the HTTP protocol</strong>.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="macos">MacOS<a class="hash-link" href="#macos" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="infoplist">Info.plist<a class="hash-link" href="#infoplist" title="Direct link to heading">​</a></h3><p>Good documentation of all the keys:
+<a href="https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html" target="_blank" rel="noopener noreferrer">https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Shader Programming made Functional]]></title>
             <link>https://coollibs.github.io/blog/2022/08/23/shader-programming-made-functional</link>
