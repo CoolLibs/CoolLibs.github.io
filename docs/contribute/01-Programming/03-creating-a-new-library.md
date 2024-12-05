@@ -25,6 +25,6 @@ We try to do that whenever possible because it encourages a more decoupled and f
 (NB: Replace the two occurences of `mynewlib` with the name of your library).
 - Clone the repo **recursively**: `git clone --recursive url/to/the/new/repo`.
 - In the cloned repo, fill in "setup.py" and run the script: it will setup everything and then remove the Python scripts used for the setup and amend the initial commit.
-- `force push` this initial commit.
+- commit as "🎉 Initial commit" and `force push` it.
 - Implement the library.
 - Once the library is stable and you are ready to mark it as *v1*, make a release on GitHub and write an article about it in our blog.

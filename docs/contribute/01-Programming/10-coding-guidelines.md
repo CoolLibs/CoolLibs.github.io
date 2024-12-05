@@ -140,6 +140,11 @@ private:
 };
 ```
 
+## Never use std::filesystem functions directly, use Cool::File instead
+
+We wrap the std::filesystem functions and handle excepetions.
+Note that using the types are fine (e.g. you can freely use `std::filesystem::path`)
+
 ## Coding style
 
 Coding styles don't matter, and that's why we simply have to choose one and stick to it.
