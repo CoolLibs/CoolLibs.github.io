@@ -20,12 +20,6 @@ it most likely means you forgot the submodules. To grab them after having cloned
 git submodule update --init --recursive
 ```
 
-## Vulkan
-
-If you want to use Vulkan instead of OpenGL you will need to [install the Vulkan SDK](https://vulkan.lunarg.com/sdk/home).
-
-Note that this is not required to get started with the Demo.
-
 ## Build
 
 Install [CMake](https://cmake.org/download/). If you already have it, make sure you have version 3.20 or greater.
